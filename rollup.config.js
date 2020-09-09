@@ -3,8 +3,18 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
+import alias from '@rollup/plugin-alias';
 
 const production = !process.env.ROLLUP_WATCH;
+
+const aliases = alias({
+  resolve: ['.svelte', '.js'], //optional, by default this will just look for .js files or folders
+  entries: [
+    { find: 'components', replacement: 'src/components' },
+    { find: 'views', replacement: 'src/views' },
+    { find: 'assets', replacement: 'src/assets' },
+  ]
+});
 
 function serve() {
 	let server;
@@ -67,7 +77,14 @@ export default {
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
-		production && terser()
+		production && terser(),
+
+    // for absolut imports
+    // i.e., instead of
+    // import Component  from "../../../../components/Component.svelte";
+    // we will be able to say
+    // import Component from "components/Component.svelte";
+    aliases
 	],
 	watch: {
 		clearScreen: false
