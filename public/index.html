@@ -15,6 +15,12 @@
   <link rel="stylesheet" href="/assets/styles/tailwind.css">
   <title>Tailwind Webapp Svelte</title>
 
+  <script>
+  if(process === undefined){
+    var process = {env: {}};
+  }
+  </script>
+
 	<script defer src='/build/bundle.js'></script>
 </head>
 
