@@ -5,7 +5,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public -s",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf public/build && npm install && npm run dev"
+    "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf public/build && npm install && npm run build:tailwind && npm run dev"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "14.0.0",
