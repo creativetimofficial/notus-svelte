@@ -1,4 +1,6 @@
 <script>
+import { Link } from "svelte-routing";
+
 import IndexNavbar from "components/Navbars/IndexNavbar.svelte";
 import Footer from "components/Footers/Footer.svelte";
 
@@ -27,7 +29,7 @@ const landing = "/assets/img/landing.jpg";
           A beautiful extension for TailwindCSS.
         </h2>
         <p class="mt-4 text-lg leading-relaxed text-gray-600">
-          Tailwind Webapp VueJS is Free and Open Source. It does not change
+          Tailwind Webapp Svelte is Free and Open Source. It does not change
           or add any CSS to the already one from
           <a
             href="https://tailwindcss.com/?ref=creativetim"
@@ -43,7 +45,7 @@ const landing = "/assets/img/landing.jpg";
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-vuejs?ref=twv-index"
             target="_blank"
-            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-green-500 active:bg-green-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-orange-500 active:bg-orange-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
           </a>
@@ -92,7 +94,7 @@ const landing = "/assets/img/landing.jpg";
         class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
       >
         <div
-          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-green-600"
+          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-600"
         >
           <img
             alt="..."
@@ -108,7 +110,7 @@ const landing = "/assets/img/landing.jpg";
             >
               <polygon
                 points="-30,95 583,95 583,65"
-                class="text-green-600 fill-current"
+                class="text-orange-600 fill-current"
               ></polygon>
             </svg>
             <h4 class="text-xl font-bold text-white">
@@ -186,7 +188,7 @@ const landing = "/assets/img/landing.jpg";
                 </h6>
                 <p class="mb-4 text-gray-600">
                   Built by developers for developers. You will love how easy
-                  is to to work with Tailwind Webapp VueJS.
+                  is to to work with Tailwind Webapp Svelte.
                 </p>
               </div>
             </div>
@@ -578,7 +580,7 @@ const landing = "/assets/img/landing.jpg";
     <div class="w-full md:w-6/12 px-12 md:px-4">
       <h2 class="font-semibold text-4xl">Beautiful Example Pages</h2>
       <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-600">
-        Tailwind Webapp VueJS is a completly new product built using our
+        Tailwind Webapp Svelte is a completly new product built using our
         past experience in web templates. Take the examples we made for you
         and start playing with them.
       </p>
@@ -595,7 +597,7 @@ const landing = "/assets/img/landing.jpg";
             <h5 class="text-xl font-semibold pb-4 text-center">
               Login Page
             </h5>
-            <router-link to="/auth/login">
+            <Link to="/auth/login">
               <div
                 class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
               >
@@ -605,14 +607,14 @@ const landing = "/assets/img/landing.jpg";
                   src={login}
                 />
               </div>
-            </router-link>
+            </Link>
           </div>
 
           <div class="w-full lg:w-4/12 px-4">
             <h5 class="text-xl font-semibold pb-4 text-center">
               Profile Page
             </h5>
-            <router-link to="/profile">
+            <Link to="/profile">
               <div
                 class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
               >
@@ -622,14 +624,14 @@ const landing = "/assets/img/landing.jpg";
                   src={profile}
                 />
               </div>
-            </router-link>
+            </Link>
           </div>
 
           <div class="w-full lg:w-4/12 px-4">
             <h5 class="text-xl font-semibold pb-4 text-center">
               Landing Page
             </h5>
-            <router-link to="/landing">
+            <Link to="/landing">
               <div
                 class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
               >
@@ -639,7 +641,7 @@ const landing = "/assets/img/landing.jpg";
                   src={landing}
                 />
               </div>
-            </router-link>
+            </Link>
           </div>
         </div>
       </div>
@@ -741,7 +743,7 @@ const landing = "/assets/img/landing.jpg";
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-vuejs?ref=twv-index"
             target="_blank"
-            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-green-500 active:bg-green-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-orange-500 active:bg-orange-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
           </a>
