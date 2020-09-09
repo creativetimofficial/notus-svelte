@@ -2,14 +2,16 @@
 <script>
   import { Router, Link, Route } from "svelte-routing";
   import Index from "./routes/Index.svelte";
+
+  import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
   // import About from "./routes/About.svelte";
   // import Blog from "./routes/Blog.svelte";
 
   export let url = "";
-</script>
 
-<link rel="stylesheet" href="../node-modules/@fortawesome/fontawesome-free/css/all.min.css">
-<link rel="stylesheet" href="./assets/styles/tailwind.css">
+
+</script>
 
 <Router url="{url}">
   <!-- <nav>
