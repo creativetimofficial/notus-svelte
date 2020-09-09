@@ -25,7 +25,7 @@ function setNavbarOpen () {
             class="text-gray-800 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
             to="/"
           >
-            Tailwind Webapp VueJS
+            Tailwind Webapp Svelte
           </Link>
         <button
           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -91,7 +91,7 @@ function setNavbarOpen () {
 
           <li class="flex items-center">
             <button
-              class="bg-green-500 text-white active:bg-green-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+              class="bg-orange-500 text-white active:bg-orange-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
               type="button"
             >
               <i class="fas fa-arrow-alt-circle-down"></i> Download
