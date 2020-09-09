@@ -150,7 +150,7 @@ let date = new Date().getFullYear();
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {date} Tailwind Webapp VueJS by
+            Copyright © {date} Tailwind Webapp Svelte by
             <a
               href="https://www.creative-tim.com?ref=twv-footer"
               class="text-gray-600 hover:text-gray-900"
