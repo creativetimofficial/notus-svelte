@@ -5,7 +5,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public -s",
-    "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css",
+    "build:tailwind": "tailwind build public/assets/styles/index.css -o public/assets/styles/tailwind.css",
     "build:fontawesome": "mkdir -p public/assets/vendor/@fortawesome/fontawesome-free/webfonts && mkdir -p public/assets/vendor/@fortawesome/fontawesome-free/css && cp -a ./node_modules/@fortawesome/fontawesome-free/webfonts public/assets/vendor/@fortawesome/fontawesome-free/ && cp ./node_modules/@fortawesome/fontawesome-free/css/all.min.css public/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf public/build && npm install && npm run build:tailwind && npm run build:fontawesome && npm run dev"
   },
