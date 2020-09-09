@@ -15,7 +15,7 @@
     <Link to="blog">Blog</Link>
   </nav>
   <div>
-    <Route path="blog" component="{Blog}" />
+    <Route path="blog/*" component="{Blog}" />
     <Route path="about" component="{About}" />
     <Route path="/"><Home /></Route>
   </div>
