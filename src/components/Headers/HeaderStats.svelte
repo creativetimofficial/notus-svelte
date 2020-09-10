@@ -1,4 +1,10 @@
-<template>
+<script>
+import CardStats from "components/Cards/CardStats.svelte";
+
+</script>
+
+
+
   <!-- Header -->
   <div class="relative bg-green-600 md:pt-32 pb-32 pt-12">
     <div class="px-4 md:px-10 mx-auto w-full">
@@ -6,7 +12,7 @@
         <!-- Card stats -->
         <div class="flex flex-wrap">
           <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
-            <card-stats
+            <CardStats
               statSubtitle="TRAFFIC"
               statTitle="350,897"
               statArrow="up"
@@ -18,7 +24,7 @@
             />
           </div>
           <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
-            <card-stats
+            <CardStats
               statSubtitle="NEW USERS"
               statTitle="2,356"
               statArrow="down"
@@ -30,7 +36,7 @@
             />
           </div>
           <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
-            <card-stats
+            <CardStats
               statSubtitle="SALES"
               statTitle="924"
               statArrow="down"
@@ -42,7 +48,7 @@
             />
           </div>
           <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
-            <card-stats
+            <CardStats
               statSubtitle="PERFORMANCE"
               statTitle="49,65%"
               statArrow="up"
@@ -57,14 +63,3 @@
       </div>
     </div>
   </div>
-</template>
-
-<script>
-import CardStats from "@/components/Cards/CardStats.vue";
-
-export default {
-  components: {
-    CardStats,
-  },
-};
-</script>
