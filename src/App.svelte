@@ -1,7 +1,7 @@
 <!-- App.svelte -->
 <script>
   import { Router, Link, Route } from "svelte-routing";
-  import Index from "./routes/Index.svelte";
+  import Index from "./views/Index.svelte";
 
   import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
