@@ -1,7 +1,14 @@
-<template>
+<script>
+
+let date = new Date().getFullYear();
+
+export let absolute = false;
+
+</script>
+
+
   <footer
-    class="pb-6"
-    :class="[absolute ? 'absolute w-full bottom-0 bg-gray-900' : 'relative']"
+    class="pb-6 {absolute ? 'absolute w-full bottom-0 bg-gray-900' : 'relative'}"
   >
     <div class="container mx-auto px-4">
       <hr class="mb-6 border-b-1 border-gray-700" />
@@ -12,7 +19,7 @@
           <div
             class="text-sm text-gray-600 font-semibold py-1 text-center md:text-left"
           >
-            Copyright © {{ date }}
+            Copyright © {date}
             <a
               href="https://www.creative-tim.com?ref=vtw-footer-small"
               class="text-white hover:text-gray-400 text-sm font-semibold py-1"
@@ -60,20 +67,3 @@
       </div>
     </div>
   </footer>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      date: new Date().getFullYear(),
-    };
-  },
-  props: {
-    absolute: {
-      type: Boolean,
-      default: false,
-    },
-  },
-};
-</script>
