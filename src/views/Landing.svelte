@@ -1,15 +1,23 @@
-<template>
+<script>
+import AuthNavbar from "components/Navbars/AuthNavbar.svelte";
+import Footer from "components/Footers/Footer.svelte";
+
+const team1 = "assets/img/team-1-800x800.jpg";
+const team2 = "assets/img/team-2-800x800.jpg";
+const team3 = "assets/img/team-3-800x800.jpg";
+const team4 = "assets/img/team-4-470x470.png";
+
+</script>
+
   <div>
-    <navbar />
+    <AuthNavbar />
     <main>
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style="
-            background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80');
-          "
+          style="background-image: url(https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);"
         >
           <span
             id="blackOverlay"
@@ -293,7 +301,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  :src="team1"
+                  src={team1}
                   class="shadow-lg rounded-full mx-auto max-w-120-px"
                 />
                 <div class="pt-6 text-center">
@@ -328,7 +336,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  :src="team2"
+                  src={team2}
                   class="shadow-lg rounded-full mx-auto max-w-120-px"
                 />
                 <div class="pt-6 text-center">
@@ -357,7 +365,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  :src="team3"
+                  src={team3}
                   class="shadow-lg rounded-full mx-auto max-w-120-px"
                 />
                 <div class="pt-6 text-center">
@@ -392,7 +400,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  :src="team4"
+                  src={team4}
                   class="shadow-lg rounded-full mx-auto max-w-120-px"
                 />
                 <div class="pt-6 text-center">
@@ -584,30 +592,5 @@
         </div>
       </section>
     </main>
-    <footer-component />
+    <Footer />
   </div>
-</template>
-<script>
-import Navbar from "@/components/Navbars/AuthNavbar.vue";
-import FooterComponent from "@/components/Footers/Footer.vue";
-
-import team1 from "@/assets/img/team-1-800x800.jpg";
-import team2 from "@/assets/img/team-2-800x800.jpg";
-import team3 from "@/assets/img/team-3-800x800.jpg";
-import team4 from "@/assets/img/team-4-470x470.png";
-
-export default {
-  data() {
-    return {
-      team1,
-      team2,
-      team3,
-      team4,
-    };
-  },
-  components: {
-    Navbar,
-    FooterComponent,
-  },
-};
-</script>
