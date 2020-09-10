@@ -5,7 +5,7 @@
   // Admin Layout
   // import Admin from "./layouts/Admin.svelte";
   // Auth Layout
-  // import Auth from "./layouts/Auth.svelte";
+  import Auth from "./layouts/Auth.svelte";
 
   // No Layout Pages
   import Index from "./views/Index.svelte";
@@ -31,7 +31,7 @@
   <!-- admin layout -->
   <!-- <Route path="admin/*" component="{Admin}" /> -->
   <!-- auth layout -->
-  <!-- <Route path="auth/*" component="{Auth}" /> -->
+  <Route path="auth/*" component="{Auth}" />
   <!-- no layout pages -->
   <Route path="landing" component="{Landing}" />
   <Route path="profile" component="{Profile}" />
