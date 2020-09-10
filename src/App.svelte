@@ -10,7 +10,7 @@
   // No Layout Pages
   import Index from "./views/Index.svelte";
   import Landing from "./views/Landing.svelte";
-  // import Profile from "./views/Profile.svelte";
+  import Profile from "./views/Profile.svelte";
 
   // import About from "./routes/About.svelte";
   // import Blog from "./routes/Blog.svelte";
@@ -34,6 +34,6 @@
   <!-- <Route path="auth/*" component="{Auth}" /> -->
   <!-- no layout pages -->
   <Route path="landing" component="{Landing}" />
-  <!-- <Route path="profile" component="{Profile}" /> -->
+  <Route path="profile" component="{Profile}" />
   <Route path="/" component="{Index}" />
 </Router>
