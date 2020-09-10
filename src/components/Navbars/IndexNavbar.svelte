@@ -1,5 +1,5 @@
 <script>
-import { Link } from "svelte-routing";
+import { link } from "svelte-routing";
 
 import IndexDropdown from "components/Dropdowns/IndexDropdown.svelte";
 
@@ -21,12 +21,12 @@ function setNavbarOpen () {
       <div
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >
-          <Link
+          <a use:link
             class="text-gray-800 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
-            to="/"
+            href="/"
           >
             Tailwind WebApp Svelte
-          </Link>
+          </a>
         <button
           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button"
