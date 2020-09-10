@@ -1,12 +1,19 @@
-<template>
+<script>
+import AuthNavbar from "components/Navbars/AuthNavbar.svelte";
+import Footer from "components/Footers/Footer.svelte";
+
+const team2 = "assets/img/team-2-800x800.jpg";
+</script>
+
+
   <div>
-    <navbar />
+    <AuthNavbar />
     <main class="profile-page">
       <section class="relative block h-500-px">
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
           style="
-            background-image: url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80');
+            background-image: url(https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80);
           "
         >
           <span
@@ -47,7 +54,7 @@
                   <div class="relative">
                     <img
                       alt="..."
-                      :src="team2"
+                      src="{team2}"
                       class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                     />
                   </div>
@@ -140,24 +147,5 @@
         </div>
       </section>
     </main>
-    <footer-component />
+    <Footer />
   </div>
-</template>
-<script>
-import Navbar from "@/components/Navbars/AuthNavbar.vue";
-import FooterComponent from "@/components/Footers/Footer.vue";
-
-import team2 from "@/assets/img/team-2-800x800.jpg";
-
-export default {
-  data() {
-    return {
-      team2,
-    };
-  },
-  components: {
-    Navbar,
-    FooterComponent,
-  },
-};
-</script>
