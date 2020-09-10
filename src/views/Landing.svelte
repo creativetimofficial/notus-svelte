@@ -25,7 +25,7 @@
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
                   This is a simple example of a Landing Page you can build using
-                  Tailwind Webapp VueJS. It features multiple CSS components
+                  Vue Tailwind WebApp. It features multiple CSS components
                   based on the Tailwindcss design system.
                 </p>
               </div>
@@ -139,7 +139,7 @@
                 go. Just make sure you enable them first via JavaScript.
               </p>
               <router-link to="/" class="font-bold text-gray-800 mt-8">
-                Check Tailwind Webapp VueJS!
+                Check Vue Tailwind WebApp!
               </router-link>
             </div>
 
