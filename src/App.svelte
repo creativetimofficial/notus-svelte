@@ -1,6 +1,6 @@
 <!-- App.svelte -->
 <script>
-  import { Router, Link, Route } from "svelte-routing";
+  import { Router, Route } from "svelte-routing";
 
   // Admin Layout
   // import Admin from "./layouts/Admin.svelte";
