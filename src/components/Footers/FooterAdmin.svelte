@@ -1,4 +1,8 @@
-<template>
+<script>
+let date = new Date().getFullYear();
+</script>
+
+
   <footer class="block py-4">
     <div class="container mx-auto px-4">
       <hr class="mb-4 border-b-1 border-gray-300" />
@@ -9,7 +13,7 @@
           <div
             class="text-sm text-gray-600 font-semibold py-1 text-center md:text-left"
           >
-            Copyright © {{ date }}
+            Copyright © {date}
             <a
               href="https://www.creative-tim.com?ref=vtw-footer-admin"
               class="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1"
@@ -57,13 +61,3 @@
       </div>
     </div>
   </footer>
-</template>
-<script>
-export default {
-  data() {
-    return {
-      date: new Date().getFullYear(),
-    };
-  },
-};
-</script>
