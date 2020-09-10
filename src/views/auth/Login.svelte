@@ -1,4 +1,10 @@
-<template>
+<script>
+const github = "../assets/img/github.svg";
+const google = "../assets/img/google.svg";
+
+</script>
+
+
   <div class="container mx-auto px-4 h-full">
     <div class="flex content-center items-center justify-center h-full">
       <div class="w-full lg:w-4/12 px-4">
@@ -16,14 +22,14 @@
                 class="bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
                 type="button"
               >
-                <img alt="..." class="w-5 mr-1" :src="github" />
+                <img alt="..." class="w-5 mr-1" src={github} />
                 Github
               </button>
               <button
                 class="bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
                 type="button"
               >
-                <img alt="..." class="w-5 mr-1" :src="google" />
+                <img alt="..." class="w-5 mr-1" src={google} />
                 Google
               </button>
             </div>
@@ -100,17 +106,3 @@
       </div>
     </div>
   </div>
-</template>
-<script>
-import github from "@/assets/img/github.svg";
-import google from "@/assets/img/google.svg";
-
-export default {
-  data() {
-    return {
-      github,
-      google,
-    };
-  },
-};
-</script>
