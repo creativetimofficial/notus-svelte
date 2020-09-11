@@ -10,7 +10,7 @@
     collapseShow = classes;
   }
 
-  let currentPath = window.location.href;
+  export let location;
 </script>
 
 <nav
@@ -99,10 +99,10 @@
           <a
             use:link
             href="/admin/dashboard"
-            class="text-xs uppercase py-3 font-bold block {currentPath.indexOf('/admin/dashboard') !== -1 ? 'text-green-500 hover:text-green-600':'text-gray-800 hover:text-gray-600'}"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/dashboard') !== -1 ? 'text-orange-500 hover:text-orange-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
-              class="fas fa-tv mr-2 text-sm {currentPath.indexOf('/admin/dashboard') !== -1 ? 'opacity-75' : 'text-gray-400'}"
+              class="fas fa-tv mr-2 text-sm {location.href.indexOf('/admin/dashboard') !== -1 ? 'opacity-75' : 'text-gray-400'}"
             ></i>
             Dashboard
           </a>
@@ -112,10 +112,10 @@
           <a
             use:link
             href="/admin/settings"
-            class="text-xs uppercase py-3 font-bold block {currentPath.indexOf('/admin/settings') !== -1 ? 'text-green-500 hover:text-green-600':'text-gray-800 hover:text-gray-600'}"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/settings') !== -1 ? 'text-orange-500 hover:text-orange-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
-              class="fas fa-tools mr-2 text-sm {currentPath.indexOf('/admin/settings') !== -1 ? 'opacity-75' : 'text-gray-400'}"
+              class="fas fa-tools mr-2 text-sm {location.href.indexOf('/admin/settings') !== -1 ? 'opacity-75' : 'text-gray-400'}"
             ></i>
             Settings
           </a>
@@ -125,10 +125,10 @@
           <a
             use:link
             href="/admin/tables"
-            class="text-xs uppercase py-3 font-bold block {currentPath.indexOf('/admin/tables') !== -1 ? 'text-green-500 hover:text-green-600':'text-gray-800 hover:text-gray-600'}"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/tables') !== -1 ? 'text-orange-500 hover:text-orange-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
-              class="fas fa-table mr-2 text-sm {currentPath.indexOf('/admin/tables') !== -1 ? 'opacity-75' : 'text-gray-400'}"
+              class="fas fa-table mr-2 text-sm {location.href.indexOf('/admin/tables') !== -1 ? 'opacity-75' : 'text-gray-400'}"
             ></i>
             Tables
           </a>
@@ -138,10 +138,10 @@
           <a
             use:link
             href="/admin/maps"
-            class="text-xs uppercase py-3 font-bold block {currentPath.indexOf('/admin/maps') !== -1 ? 'text-green-500 hover:text-green-600':'text-gray-800 hover:text-gray-600'}"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/maps') !== -1 ? 'text-orange-500 hover:text-orange-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
-              class="fas fa-map-marked mr-2 text-sm {currentPath.indexOf('/admin/maps') !== -1 ? 'opacity-75' : 'text-gray-400'}"
+              class="fas fa-map-marked mr-2 text-sm {location.href.indexOf('/admin/maps') !== -1 ? 'opacity-75' : 'text-gray-400'}"
             ></i>
             Maps
           </a>
