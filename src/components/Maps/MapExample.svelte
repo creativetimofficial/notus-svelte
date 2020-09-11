@@ -1,14 +1,7 @@
-<template>
-  <div
-    id="map-canvas"
-    class="relative w-full rounded h-600-px"
-    data-lat="40.748817"
-    data-lng="-73.985428"
-  ></div>
-</template>
 <script>
-export default {
-  mounted() {
+  import { onMount } from "svelte";
+
+  onMount(async () => {
     let google = window.google;
     let map = document.getElementById("map-canvas");
     let lat = map.getAttribute("data-lat");
@@ -59,7 +52,7 @@ export default {
         {
           featureType: "water",
           elementType: "all",
-          stylers: [{ color: "#5e72e4" }, { visibility: "on" }],
+          stylers: [{ color: "#ed8936" }, { visibility: "on" }],
         },
       ],
     };
@@ -74,7 +67,7 @@ export default {
     });
 
     const contentString =
-      '<div class="info-window-content"><h2>Vue Tailwind WebApp</h2>' +
+      '<div class="info-window-content"><h2>Tailwind WebApp Svelte</h2>' +
       "<p>A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</p></div>";
 
     const infowindow = new google.maps.InfoWindow({
@@ -84,6 +77,12 @@ export default {
     google.maps.event.addListener(marker, "click", function () {
       infowindow.open(map, marker);
     });
-  },
-};
+  });
 </script>
+
+<div
+  id="map-canvas"
+  class="relative w-full rounded h-600-px"
+  data-lat="40.748817"
+  data-lng="-73.985428"
+></div>

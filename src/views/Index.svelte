@@ -1,27 +1,24 @@
 <script>
-import { Link } from "svelte-routing";
+  import { Link } from "svelte-routing";
 
-import IndexNavbar from "components/Navbars/IndexNavbar.svelte";
-import Footer from "components/Footers/Footer.svelte";
+  import IndexNavbar from "components/Navbars/IndexNavbar.svelte";
+  import Footer from "components/Footers/Footer.svelte";
 
-const patternVue = "/assets/img/pattern_vue.png";
-const componentBtn = "/assets/img/component-btn.png";
-const componentProfileCard = "/assets/img/component-profile-card.png";
-const componentInfoCard = "/assets/img/component-info-card.png";
-const componentInfo2 = "/assets/img/component-info-2.png";
-const componentMenu = "/assets/img/component-menu.png";
-const componentBtnPink = "/assets/img/component-btn-pink.png";
-const documentation = "/assets/img/documentation.png";
-const login = "/assets/img/login.jpg";
-const profile = "/assets/img/profile.jpg";
-const landing = "/assets/img/landing.jpg";
-
+  const patternVue = "/assets/img/pattern_vue.png";
+  const componentBtn = "/assets/img/component-btn.png";
+  const componentProfileCard = "/assets/img/component-profile-card.png";
+  const componentInfoCard = "/assets/img/component-info-card.png";
+  const componentInfo2 = "/assets/img/component-info-2.png";
+  const componentMenu = "/assets/img/component-menu.png";
+  const componentBtnPink = "/assets/img/component-btn-pink.png";
+  const documentation = "/assets/img/documentation.png";
+  const login = "/assets/img/login.jpg";
+  const profile = "/assets/img/profile.jpg";
+  const landing = "/assets/img/landing.jpg";
 </script>
 
 <IndexNavbar />
-<section
-  class="header relative pt-16 items-center flex h-screen max-h-860-px"
->
+<section class="header relative pt-16 items-center flex h-screen max-h-860-px">
   <div class="container mx-auto items-center flex flex-wrap">
     <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
       <div class="pt-32 sm:pt-0">
@@ -29,8 +26,8 @@ const landing = "/assets/img/landing.jpg";
           A beautiful extension for TailwindCSS.
         </h2>
         <p class="mt-4 text-lg leading-relaxed text-gray-600">
-          Tailwind WebApp Svelte is Free and Open Source. It does not change
-          or add any CSS to the already one from
+          Tailwind WebApp Svelte is Free and Open Source. It does not change or
+          add any CSS to the already one from
           <a
             href="https://tailwindcss.com/?ref=creativetim"
             class="text-gray-700"
@@ -63,7 +60,7 @@ const landing = "/assets/img/landing.jpg";
 
   <img
     class="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-    src={patternVue}
+    src="{patternVue}"
     alt="..."
   />
 </section>
@@ -118,8 +115,8 @@ const landing = "/assets/img/landing.jpg";
             </h4>
             <p class="text-md font-light mt-2 text-white">
               Putting together a page has never been easier than matching
-              together pre-made components. From landing pages presentation
-              to login areas, you can easily customise and built your pages.
+              together pre-made components. From landing pages presentation to
+              login areas, you can easily customise and built your pages.
             </p>
           </blockquote>
         </div>
@@ -139,8 +136,8 @@ const landing = "/assets/img/landing.jpg";
                   CSS Components
                 </h6>
                 <p class="mb-4 text-gray-600">
-                  Tailwind WebApp comes with a huge number of Fully Coded
-                  CSS components.
+                  Tailwind WebApp comes with a huge number of Fully Coded CSS
+                  components.
                 </p>
               </div>
             </div>
@@ -155,8 +152,8 @@ const landing = "/assets/img/landing.jpg";
                   JavaScript Components
                 </h6>
                 <p class="mb-4 text-gray-600">
-                  We also feature many dynamic components for React, NextJS,
-                  Vue and Angular.
+                  We also feature many dynamic components for React, NextJS, Vue
+                  and Angular.
                 </p>
               </div>
             </div>
@@ -171,8 +168,8 @@ const landing = "/assets/img/landing.jpg";
                 </div>
                 <h6 class="text-xl mb-1 font-semibold">Pages</h6>
                 <p class="mb-4 text-gray-600">
-                  This extension also comes with 3 sample pages. They are
-                  fully coded so you can start working instantly.
+                  This extension also comes with 3 sample pages. They are fully
+                  coded so you can start working instantly.
                 </p>
               </div>
             </div>
@@ -187,8 +184,8 @@ const landing = "/assets/img/landing.jpg";
                   Documentation
                 </h6>
                 <p class="mb-4 text-gray-600">
-                  Built by developers for developers. You will love how easy
-                  is to to work with Tailwind WebApp Svelte.
+                  Built by developers for developers. You will love how easy is
+                  to to work with Tailwind WebApp Svelte.
                 </p>
               </div>
             </div>
@@ -209,12 +206,10 @@ const landing = "/assets/img/landing.jpg";
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           CSS Components
         </h3>
-        <p
-          class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
-        >
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
           Every element that you need in a product comes built in as a
-          component. All components fit perfectly with each other and can
-          have different colours.
+          component. All components fit perfectly with each other and can have
+          different colours.
         </p>
         <div class="block pb-6">
           <span
@@ -269,37 +264,35 @@ const landing = "/assets/img/landing.jpg";
       </div>
 
       <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
-        <div
-          class="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0"
-        >
+        <div class="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
           <img
             alt="..."
-            src={componentBtn}
+            src="{componentBtn}"
             class="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
           />
           <img
             alt="..."
-            src={componentProfileCard}
+            src="{componentProfileCard}"
             class="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
           />
           <img
             alt="..."
-            src={componentInfoCard}
+            src="{componentInfoCard}"
             class="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
           />
           <img
             alt="..."
-            src={componentInfo2}
+            src="{componentInfo2}"
             class="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
           />
           <img
             alt="..."
-            src={componentMenu}
+            src="{componentMenu}"
             class="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
           />
           <img
             alt="..."
-            src={componentBtnPink}
+            src="{componentBtnPink}"
             class="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
           />
         </div>
@@ -314,9 +307,7 @@ const landing = "/assets/img/landing.jpg";
               href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=vtw-index"
               target="_blank"
             >
-              <div
-                class="bg-orange-500 shadow-lg rounded-lg text-center p-8"
-              >
+              <div class="bg-orange-500 shadow-lg rounded-lg text-center p-8">
                 <img
                   alt="..."
                   class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -335,9 +326,7 @@ const landing = "/assets/img/landing.jpg";
               href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular?ref=vtw-index"
               target="_blank"
             >
-              <div
-                class="bg-red-600 shadow-lg rounded-lg text-center p-8 mt-8"
-              >
+              <div class="bg-red-600 shadow-lg rounded-lg text-center p-8 mt-8">
                 <img
                   alt="..."
                   class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -347,8 +336,8 @@ const landing = "/assets/img/landing.jpg";
                   Angular
                 </p>
                 <p class="text-base text-white opacity-75 mt-2">
-                  a JavaScript-based open-source front-end web framework
-                  mainly maintained by Google.
+                  a JavaScript-based open-source front-end web framework mainly
+                  maintained by Google.
                 </p>
               </div>
             </a>
@@ -368,8 +357,8 @@ const landing = "/assets/img/landing.jpg";
                   ReactJS
                 </p>
                 <p class="text-base text-white opacity-75 mt-2">
-                  A JavaScript library for building user interfaces
-                  maintaned by Facebook and community of developers.
+                  A JavaScript library for building user interfaces maintaned by
+                  Facebook and community of developers.
                 </p>
               </div>
             </a>
@@ -389,8 +378,8 @@ const landing = "/assets/img/landing.jpg";
                   Vue.js
                 </p>
                 <p class="text-base text-white opacity-75 mt-2">
-                  An open-source Model–view–viewmodel JavaScript framework
-                  for building user interfaces.
+                  An open-source Model–view–viewmodel JavaScript framework for
+                  building user interfaces.
                 </p>
               </div>
             </a>
@@ -427,18 +416,13 @@ const landing = "/assets/img/landing.jpg";
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Javascript Components
         </h3>
-        <p
-          class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
-        >
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
           In order to create a great User Experience some components require
-          JavaScript. In this way you can manipulate the elements on the
-          page and give more options to your users.
+          JavaScript. In this way you can manipulate the elements on the page
+          and give more options to your users.
         </p>
-        <p
-          class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
-        >
-          We created a set of Components that are dynamic and come to help
-          you.
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+          We created a set of Components that are dynamic and come to help you.
         </p>
         <div class="block pb-6">
           <span
@@ -507,10 +491,9 @@ const landing = "/assets/img/landing.jpg";
             Complex Documentation
           </h3>
           <p class="mt-4 text-lg leading-relaxed text-gray-600">
-            This extension comes a lot of fully coded examples that help you
-            get started faster. You can adjust the colors and also the
-            programming language. You can change the text and images and
-            you're good to go.
+            This extension comes a lot of fully coded examples that help you get
+            started faster. You can adjust the colors and also the programming
+            language. You can change the text and images and you're good to go.
           </p>
           <ul class="list-none mt-6">
             <li class="py-2">
@@ -569,8 +552,11 @@ const landing = "/assets/img/landing.jpg";
         <img
           alt="..."
           class="max-w-full rounded-lg shadow-xl"
-          style="transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);"
-          src={documentation}
+          style="
+            transform: scale(1) perspective(1040px) rotateY(-11deg)
+              rotateX(2deg) rotate(2deg);
+          "
+          src="{documentation}"
         />
       </div>
     </div>
@@ -580,9 +566,9 @@ const landing = "/assets/img/landing.jpg";
     <div class="w-full md:w-6/12 px-12 md:px-4">
       <h2 class="font-semibold text-4xl">Beautiful Example Pages</h2>
       <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-600">
-        Tailwind WebApp Svelte is a completly new product built using our
-        past experience in web templates. Take the examples we made for you
-        and start playing with them.
+        Tailwind WebApp Svelte is a completly new product built using our past
+        experience in web templates. Take the examples we made for you and start
+        playing with them.
       </p>
     </div>
   </div>
@@ -604,7 +590,7 @@ const landing = "/assets/img/landing.jpg";
                 <img
                   alt="..."
                   class="align-middle border-none max-w-full h-auto rounded-lg"
-                  src={login}
+                  src="{login}"
                 />
               </div>
             </Link>
@@ -621,7 +607,7 @@ const landing = "/assets/img/landing.jpg";
                 <img
                   alt="..."
                   class="align-middle border-none max-w-full h-auto rounded-lg"
-                  src={profile}
+                  src="{profile}"
                 />
               </div>
             </Link>
@@ -638,7 +624,7 @@ const landing = "/assets/img/landing.jpg";
                 <img
                   alt="..."
                   class="align-middle border-none max-w-full h-auto rounded-lg"
-                  src={landing}
+                  src="{landing}"
                 />
               </div>
             </Link>
@@ -661,9 +647,7 @@ const landing = "/assets/img/landing.jpg";
         <h3 class="text-3xl mb-2 font-semibold leading-normal text-white">
           Open Source
         </h3>
-        <p
-          class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-500"
-        >
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-500">
           Since
           <a
             href="https://tailwindcss.com/?ref=creativetim"
@@ -672,15 +656,12 @@ const landing = "/assets/img/landing.jpg";
           >
             TailwindCSS
           </a>
-          is an open source project we wanted to continue this movement too.
-          You can give this version a try to feel the design and also test
-          the quality of the code!
+          is an open source project we wanted to continue this movement too. You
+          can give this version a try to feel the design and also test the
+          quality of the code!
         </p>
-        <p
-          class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-500"
-        >
-          Get it free on Github and please help us spread the news with a
-          Star!
+        <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-500">
+          Get it free on Github and please help us spread the news with a Star!
         </p>
         <a
           href="https://github.com/creativetimofficial/vue-tailwind-webapp?ref=vtw-index"
@@ -736,8 +717,8 @@ const landing = "/assets/img/landing.jpg";
         </h3>
         <p class="text-gray-600 text-lg leading-relaxed mt-4 mb-4">
           Cause if you do, it can be yours now. Hit the buttons below to
-          navigate to get the Free version for your next project. Build a
-          new web app or give an old project a new look!
+          navigate to get the Free version for your next project. Build a new
+          web app or give an old project a new look!
         </p>
         <div class="sm:block flex flex-col mt-10">
           <a
@@ -761,4 +742,4 @@ const landing = "/assets/img/landing.jpg";
     </div>
   </div>
 </section>
-<Footer />
+<footer />
