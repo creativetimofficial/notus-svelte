@@ -23,6 +23,7 @@
     "@popperjs/core": "2.4.4",
     "@rollup/plugin-alias": "3.1.1",
     "@tailwindcss/custom-forms": "0.2.1",
+    "chart.js": "2.9.3",
     "sirv-cli": "1.0.0",
     "svelte-routing": "1.4.2",
     "tailwindcss": "1.8.5"
