@@ -1,4 +1,5 @@
 <script>
+  // core components
   import CardStats from "components/Cards/CardStats.svelte";
 </script>
 
