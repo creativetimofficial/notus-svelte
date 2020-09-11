@@ -13,8 +13,6 @@
   import Profile from "./views/Profile.svelte";
 
   export let url = "";
-
-
 </script>
 
 <Router url="{url}">
