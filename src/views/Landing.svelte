@@ -148,7 +148,7 @@
               faster. You can change the text and images and you're good to go.
               Just make sure you enable them first via JavaScript.
             </p>
-            <a use:link href="/" class="font-bold text-gray-800 mt-8">
+            <a use:link href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/" class="font-bold text-gray-800 mt-8">
               Check Tailwind WebApp Svelte!
             </a>
           </div>
