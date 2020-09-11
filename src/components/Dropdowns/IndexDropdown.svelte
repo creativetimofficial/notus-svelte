@@ -40,28 +40,28 @@
     </span>
     <a
       use:link
-      href="/admin/dashboard"
+      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/dashboard"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Dashboard
     </a>
     <a
       use:link
-      href="/admin/settings"
+      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/settings"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Settings
     </a>
     <a
       use:link
-      href="/admin/tables"
+      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/tables"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Tables
     </a>
     <a
       use:link
-      href="/admin/maps"
+      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/maps"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Maps
@@ -74,14 +74,14 @@
     </span>
     <a
       use:link
-      href="/auth/login"
+      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/login"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Login
     </a>
     <a
       use:link
-      href="/auth/register"
+      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/register"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Register
@@ -94,14 +94,14 @@
     </span>
     <a
       use:link
-      href="/landing"
+      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/landing"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Lading
     </a>
     <a
       use:link
-      href="/tailwind-webapp-svelte/profile"
+      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/tailwind-webapp-svelte/profile"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Profile
