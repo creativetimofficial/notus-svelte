@@ -142,5 +142,5 @@
       </div>
     </section>
   </main>
-  <footer />
+  <Footer />
 </div>
