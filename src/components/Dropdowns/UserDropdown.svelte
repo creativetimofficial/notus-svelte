@@ -1,5 +1,8 @@
 <script>
+  // library for creating dropdown menu appear on click
   import { createPopper } from "@popperjs/core";
+
+  // core components
 
   const image = "../assets/img/team-1-800x800.jpg";
 
