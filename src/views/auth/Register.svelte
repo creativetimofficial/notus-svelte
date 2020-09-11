@@ -1,6 +1,6 @@
 <script>
-  const github = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'') + "../assets/img/github.svg";
-  const google = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'') + "../assets/img/google.svg";
+  const github = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/github.svg";
+  const google = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/google.svg";
 </script>
 
 <div class="container mx-auto px-4 h-full">
