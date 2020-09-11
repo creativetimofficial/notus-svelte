@@ -52,7 +52,7 @@ onMount(async () => {
       {
         featureType: "water",
         elementType: "all",
-        stylers: [{ color: "#5e72e4" }, { visibility: "on" }],
+        stylers: [{ color: "#ed8936" }, { visibility: "on" }],
       },
     ],
   };
