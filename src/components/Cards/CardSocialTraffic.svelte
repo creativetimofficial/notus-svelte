@@ -180,7 +180,7 @@
                   >
                     <div
                       style="width: 30%;"
-                      class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                      class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-orange-500"
                     ></div>
                   </div>
                 </div>
