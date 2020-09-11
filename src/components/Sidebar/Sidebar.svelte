@@ -1,6 +1,7 @@
 <script>
   import { link } from "svelte-routing";
 
+  // core components
   import NotificationDropdown from "components/Dropdowns/NotificationDropdown.svelte";
   import UserDropdown from "components/Dropdowns/UserDropdown.svelte";
 
