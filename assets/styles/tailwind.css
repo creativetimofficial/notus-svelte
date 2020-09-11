@@ -2836,12 +2836,6 @@ video {
   color: rgba(56, 178, 172, var(--text-opacity));
 }
 
-.text-teal-700 {
-  --text-opacity: 1;
-  color: #2c7a7b;
-  color: rgba(44, 122, 123, var(--text-opacity));
-}
-
 .text-blue-400 {
   --text-opacity: 1;
   color: #63b3ed;
