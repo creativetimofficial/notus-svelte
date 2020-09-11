@@ -1121,6 +1121,12 @@ video {
   background-color: rgba(237, 137, 54, var(--bg-opacity));
 }
 
+.bg-yellow-500 {
+  --bg-opacity: 1;
+  background-color: #ecc94b;
+  background-color: rgba(236, 201, 75, var(--bg-opacity));
+}
+
 .bg-green-200 {
   --bg-opacity: 1;
   background-color: #c6f6d5;
@@ -3492,8 +3498,8 @@ video {
     margin-right: 1rem;
   }
 
-  .lg\:mt-32 {
-    margin-top: 8rem;
+  .lg\:mt-16 {
+    margin-top: 4rem;
   }
 
   .lg\:ml-auto {
