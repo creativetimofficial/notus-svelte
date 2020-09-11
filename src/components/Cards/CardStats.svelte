@@ -1,4 +1,6 @@
 <script>
+  // core components
+  
   export let statSubtitle = "Traffic";
   export let statTitle = "350,897";
   // The value must match one of these strings

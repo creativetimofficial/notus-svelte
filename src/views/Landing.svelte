@@ -1,6 +1,7 @@
 <script>
   import { link } from "svelte-routing";
 
+  // core components
   import AuthNavbar from "components/Navbars/AuthNavbar.svelte";
   import Footer from "components/Footers/Footer.svelte";
 

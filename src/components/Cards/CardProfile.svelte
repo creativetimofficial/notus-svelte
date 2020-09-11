@@ -1,4 +1,5 @@
 <script>
+  // core components
   const team2 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/team-2-800x800.jpg";
 </script>
 

@@ -1,5 +1,7 @@
 <script>
   import { link } from "svelte-routing";
+
+  // core components
   import PagesDropdown from "components/Dropdowns/PagesDropdown.svelte";
 
   let navbarOpen = false;

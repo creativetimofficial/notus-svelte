@@ -1,6 +1,9 @@
 <script>
   import { link } from "svelte-routing";
+  // library for creating dropdown menu appear on click
   import { createPopper } from "@popperjs/core";
+
+  // core components
 
   let dropdownPopoverShow = false;
 

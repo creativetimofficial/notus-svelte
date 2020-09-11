@@ -1,4 +1,5 @@
 <script>
+  // core components
   import CardTable from "components/Cards/CardTable.svelte";
 </script>
 

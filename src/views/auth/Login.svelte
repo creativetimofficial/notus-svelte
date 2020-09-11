@@ -1,6 +1,7 @@
 <script>
   import { link } from "svelte-routing";
 
+  // core components
   const github = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/github.svg";
   const google = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/google.svg";
 </script>

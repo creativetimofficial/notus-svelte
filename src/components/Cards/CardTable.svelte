@@ -1,4 +1,5 @@
 <script>
+  // core components
   import TableDropdown from "components/Dropdowns/TableDropdown.svelte";
 
   const bootstrap = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/bootstrap.jpg";
