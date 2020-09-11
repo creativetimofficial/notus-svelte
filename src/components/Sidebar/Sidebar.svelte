@@ -265,6 +265,17 @@
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
             href="/"
           >
+            <i class="fas fa-link mr-2 text-gray-400 text-base"></i>
+            Svelte
+          </a>
+        </li>
+
+        <li class="inline-flex">
+          <a
+            use:link
+            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            href="/"
+          >
             <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
             React
           </a>
