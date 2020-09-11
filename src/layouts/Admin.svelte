@@ -12,10 +12,12 @@
   import Settings from "views/admin/Settings.svelte";
   import Tables from "views/admin/Tables.svelte";
   import Maps from "views/admin/Maps.svelte";
+
+  export let location
 </script>
 
 <div>
-  <Sidebar />
+  <Sidebar location={location}/>
   <div class="relative md:ml-64 bg-gray-200">
     <AdminNavbar />
     <HeaderStats />
