@@ -31,7 +31,7 @@
     <a
       use:link
       class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
-      href="/"
+      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
     >
       Tailwind WebApp Svelte
     </a>
@@ -57,7 +57,7 @@
             <a
               use:link
               class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
-              href="/"
+              href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
             >
               Tailwind WebApp Svelte
             </a>
@@ -98,7 +98,7 @@
         <li class="items-center">
           <a
             use:link
-            href="/admin/dashboard"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/dashboard"
             class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/dashboard') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
@@ -111,7 +111,7 @@
         <li class="items-center">
           <a
             use:link
-            href="/admin/settings"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/settings"
             class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/settings') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
@@ -124,7 +124,7 @@
         <li class="items-center">
           <a
             use:link
-            href="/admin/tables"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/tables"
             class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/tables') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
@@ -137,7 +137,7 @@
         <li class="items-center">
           <a
             use:link
-            href="/admin/maps"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/maps"
             class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/maps') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
@@ -163,7 +163,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-            href="/auth/login"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/login"
           >
             <i class="fas fa-fingerprint text-gray-400 mr-2 text-sm"></i>
             Login
@@ -174,7 +174,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-            href="/auth/register"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/register"
           >
             <i class="fas fa-clipboard-list text-gray-400 mr-2 text-sm"></i>
             Register
@@ -197,7 +197,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-            href="/landing"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/landing"
           >
             <i class="fas fa-newspaper text-gray-400 mr-2 text-sm"></i>
             Landing Page
@@ -208,7 +208,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-            href="/profile"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/profile"
           >
             <i class="fas fa-user-circle text-gray-400 mr-2 text-sm"></i>
             Profile Page
@@ -230,7 +230,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-            href="/"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
           >
             <i class="fas fa-paint-brush mr-2 text-gray-400 text-base"></i>
             Styles
@@ -241,7 +241,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-            href="/"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
           >
             <i class="fab fa-css3-alt mr-2 text-gray-400 text-base"></i>
             CSS Components
@@ -252,7 +252,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-            href="/"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
           >
             <i class="fab fa-vuejs mr-2 text-gray-400 text-base"></i>
             VueJS
@@ -263,7 +263,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-            href="/"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
           >
             <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
             React
@@ -274,7 +274,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-            href="/"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
           >
             <i class="fab fa-angular mr-2 text-gray-400 text-base"></i>
             Angular
@@ -285,7 +285,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-            href="/"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
           >
             <i class="fab fa-js-square mr-2 text-gray-400 text-base"></i>
             Javascript
