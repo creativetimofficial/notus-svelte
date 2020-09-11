@@ -15,7 +15,7 @@
   export let url = "";
 </script>
 
-<Router url="{url}" basepath="tailwind-webapp-svelte/">
+<Router url="{url}" basepath="{process.env.PRODUCTION ? 'tailwind-webapp-svelte/':''}">
   <!-- admin layout -->
   <Route path="admin/*" component="{Admin}" />
   <!-- auth layout -->
