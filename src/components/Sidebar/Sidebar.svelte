@@ -34,7 +34,7 @@ let currentPath = window.location.href;
         class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
         href="/"
       >
-        Vue Tailwind WebApp
+        Tailwind WebApp Svelte
       </a>
       <!-- User -->
       <ul class="md:hidden items-center flex flex-wrap list-none">
@@ -59,7 +59,7 @@ let currentPath = window.location.href;
                 class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
                 href="/"
               >
-                Vue Tailwind WebApp
+                Tailwind WebApp Svelte
               </a>
             </div>
             <div class="w-6/12 flex justify-end">
