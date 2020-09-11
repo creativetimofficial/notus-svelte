@@ -9,7 +9,7 @@
   import Login from "views/auth/Login.svelte";
   import Register from "views/auth/Register.svelte";
 
-  const registerBg2 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'') + "../assets/img/register_bg_2.png";
+  const registerBg2 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/register_bg_2.png";
 </script>
 
 <div>
