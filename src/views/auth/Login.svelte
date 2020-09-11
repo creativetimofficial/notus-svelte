@@ -1,8 +1,8 @@
 <script>
   import { link } from "svelte-routing";
 
-  const github = "../assets/img/github.svg";
-  const google = "../assets/img/google.svg";
+  const github = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'') + "../assets/img/github.svg";
+  const google = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'') + "../assets/img/google.svg";
 </script>
 
 <div class="container mx-auto px-4 h-full">
@@ -98,7 +98,7 @@
           </a>
         </div>
         <div class="w-1/2 text-right">
-          <a use:link href="/auth/register" class="text-gray-300">
+          <a use:link href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/register" class="text-gray-300">
             <small>Create new account</small>
           </a>
         </div>
