@@ -18,8 +18,8 @@ onMount(async () => {
       datasets: [
         {
           label: new Date().getFullYear(),
-          backgroundColor: "#ed64a6",
-          borderColor: "#ed64a6",
+          backgroundColor: "#3182ce",
+          borderColor: "#3182ce",
           data: [30, 78, 56, 34, 100, 45, 13],
           fill: false,
           barThickness: 8,
@@ -27,8 +27,8 @@ onMount(async () => {
         {
           label: new Date().getFullYear() - 1,
           fill: false,
-          backgroundColor: "#38a169",
-          borderColor: "#38a169",
+          backgroundColor: "#ed8936",
+          borderColor: "#ed8936",
           data: [27, 68, 86, 74, 10, 4, 87],
           barThickness: 8,
         },
