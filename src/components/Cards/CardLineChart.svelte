@@ -26,8 +26,8 @@
           {
             label: new Date().getFullYear() - 1,
             fill: false,
-            backgroundColor: "#fbd38d",
-            borderColor: "#fbd38d",
+            backgroundColor: "#fff5f5",
+            borderColor: "#fff5f5",
             data: [40, 68, 86, 74, 56, 60, 87],
           },
         ],
@@ -109,7 +109,7 @@
 </script>
 
 <div
-  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-orange-900"
+  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-red-800"
 >
   <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
     <div class="flex flex-wrap items-center">

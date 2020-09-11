@@ -4,7 +4,7 @@
   import IndexNavbar from "components/Navbars/IndexNavbar.svelte";
   import Footer from "components/Footers/Footer.svelte";
 
-  const patternVue = "/tailwind-webapp-svelte/assets/img/pattern_vue.png";
+  const patternVue = "/assets/img/pattern_svelte.png";
   const componentBtn = "/assets/img/component-btn.png";
   const componentProfileCard = "/assets/img/component-profile-card.png";
   const componentInfoCard = "/assets/img/component-info-card.png";
@@ -42,7 +42,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-vuejs?ref=vtw-index"
             target="_blank"
-            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-orange-500 active:bg-orange-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-red-500 active:bg-red-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
           </a>
@@ -91,7 +91,7 @@
         class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
       >
         <div
-          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-600"
+          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-500"
         >
           <img
             alt="..."
@@ -107,7 +107,7 @@
             >
               <polygon
                 points="-30,95 583,95 583,65"
-                class="text-orange-600 fill-current"
+                class="text-red-500 fill-current"
               ></polygon>
             </svg>
             <h4 class="text-xl font-bold text-white">
@@ -302,52 +302,29 @@
     <div class="flex flex-wrap items-center pt-32">
       <div class="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
         <div class="justify-center flex flex-wrap relative">
-          <div class="my-4 w-full lg:w-6/12 px-4 lg:mt-32">
-            <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=vtw-index"
-              target="_blank"
-            >
-              <div class="bg-orange-500 shadow-lg rounded-lg text-center p-8">
-                <img
-                  alt="..."
-                  class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                  src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
-                />
-                <p class="text-lg text-white mt-4 font-semibold">
-                  JavaScript
-                </p>
-                <p class="text-base text-white opacity-75 mt-2">
-                  Object-oriented programming language that conforms to the
-                  ECMAScript specification.
-                </p>
-              </div>
-            </a>
-            <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular?ref=vtw-index"
-              target="_blank"
-            >
-              <div class="bg-red-600 shadow-lg rounded-lg text-center p-8 mt-8">
-                <img
-                  alt="..."
-                  class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                  src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
-                />
-                <p class="text-lg text-white mt-4 font-semibold">
-                  Angular
-                </p>
-                <p class="text-base text-white opacity-75 mt-2">
-                  a JavaScript-based open-source front-end web framework mainly
-                  maintained by Google.
-                </p>
-              </div>
-            </a>
-          </div>
           <div class="my-4 w-full lg:w-6/12 px-4">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-svelte?ref=vtw-index"
+              target="_blank"
+            >
+              <div
+                class="bg-red-600 shadow-lg rounded-lg text-center p-8"
+              >
+                <img
+                  alt="..."
+                  class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                  src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                />
+                <p class="text-lg text-white mt-4 font-semibold">
+                  Svelte
+                </p>
+              </div>
+            </a>
             <a
               href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-react?ref=vtw-index"
               target="_blank"
             >
-              <div class="bg-blue-500 shadow-lg rounded-lg text-center p-8">
+              <div class="bg-blue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                 <img
                   alt="..."
                   class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -355,31 +332,6 @@
                 />
                 <p class="text-lg text-white mt-4 font-semibold">
                   ReactJS
-                </p>
-                <p class="text-base text-white opacity-75 mt-2">
-                  A JavaScript library for building user interfaces maintaned by
-                  Facebook and community of developers.
-                </p>
-              </div>
-            </a>
-            <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=vtw-index"
-              target="_blank"
-            >
-              <div
-                class="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8"
-              >
-                <img
-                  alt="..."
-                  class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                  src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
-                />
-                <p class="text-lg text-white mt-4 font-semibold">
-                  Vue.js
-                </p>
-                <p class="text-base text-white opacity-75 mt-2">
-                  An open-source Model–view–viewmodel JavaScript framework for
-                  building user interfaces.
                 </p>
               </div>
             </a>
@@ -398,8 +350,54 @@
                 <p class="text-lg text-white mt-4 font-semibold">
                   NextJS
                 </p>
-                <p class="text-base text-white opacity-75 mt-2">
-                  The React Framework for Production.
+              </div>
+            </a>
+          </div>
+          <div class="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=vtw-index"
+              target="_blank"
+            >
+              <div class="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
+                <img
+                  alt="..."
+                  class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                  src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                />
+                <p class="text-lg text-white mt-4 font-semibold">
+                  JavaScript
+                </p>
+              </div>
+            </a>
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular?ref=vtw-index"
+              target="_blank"
+            >
+              <div class="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
+                <img
+                  alt="..."
+                  class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                  src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                />
+                <p class="text-lg text-white mt-4 font-semibold">
+                  Angular
+                </p>
+              </div>
+            </a>
+            <a
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=vtw-index"
+              target="_blank"
+            >
+              <div
+                class="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8"
+              >
+                <img
+                  alt="..."
+                  class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                  src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                />
+                <p class="text-lg text-white mt-4 font-semibold">
+                  Vue.js
                 </p>
               </div>
             </a>
@@ -724,7 +722,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-vuejs?ref=vtw-index"
             target="_blank"
-            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-orange-500 active:bg-orange-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-red-500 active:bg-red-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
           </a>
@@ -742,4 +740,4 @@
     </div>
   </div>
 </section>
-<footer />
+<Footer />
