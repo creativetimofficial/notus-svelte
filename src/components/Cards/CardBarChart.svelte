@@ -27,8 +27,8 @@
           {
             label: new Date().getFullYear() - 1,
             fill: false,
-            backgroundColor: "#ed8936",
-            borderColor: "#ed8936",
+            backgroundColor: "#f56565",
+            borderColor: "#f56565",
             data: [27, 68, 86, 74, 10, 4, 87],
             barThickness: 8,
           },
