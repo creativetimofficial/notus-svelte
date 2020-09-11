@@ -581,7 +581,7 @@
             <h5 class="text-xl font-semibold pb-4 text-center">
               Login Page
             </h5>
-            <Link to="/auth/login">
+            <Link to="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/login">
               <div
                 class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
               >
@@ -598,7 +598,7 @@
             <h5 class="text-xl font-semibold pb-4 text-center">
               Profile Page
             </h5>
-            <Link to="/profile">
+            <Link to="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/profile">
               <div
                 class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
               >
@@ -615,7 +615,7 @@
             <h5 class="text-xl font-semibold pb-4 text-center">
               Landing Page
             </h5>
-            <Link to="/landing">
+            <Link to="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/landing">
               <div
                 class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
               >
