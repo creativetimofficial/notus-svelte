@@ -4,10 +4,10 @@
   import AuthNavbar from "components/Navbars/AuthNavbar.svelte";
   import Footer from "components/Footers/Footer.svelte";
 
-  const team1 = "assets/img/team-1-800x800.jpg";
-  const team2 = "assets/img/team-2-800x800.jpg";
-  const team3 = "assets/img/team-3-800x800.jpg";
-  const team4 = "assets/img/team-4-470x470.png";
+  const team1 = "/assets/img/team-1-800x800.jpg";
+  const team2 = "/assets/img/team-2-800x800.jpg";
+  const team3 = "/assets/img/team-3-800x800.jpg";
+  const team4 = "/assets/img/team-4-470x470.png";
 </script>
 
 <div>
