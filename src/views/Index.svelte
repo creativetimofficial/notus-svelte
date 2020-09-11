@@ -4,17 +4,17 @@
   import IndexNavbar from "components/Navbars/IndexNavbar.svelte";
   import Footer from "components/Footers/Footer.svelte";
 
-  const patternVue = "/assets/img/pattern_svelte.png";
-  const componentBtn = "/assets/img/component-btn.png";
-  const componentProfileCard = "/assets/img/component-profile-card.png";
-  const componentInfoCard = "/assets/img/component-info-card.png";
-  const componentInfo2 = "/assets/img/component-info-2.png";
-  const componentMenu = "/assets/img/component-menu.png";
-  const componentBtnPink = "/assets/img/component-btn-pink.png";
-  const documentation = "/assets/img/documentation.png";
-  const login = "/assets/img/login.jpg";
-  const profile = "/assets/img/profile.jpg";
-  const landing = "/assets/img/landing.jpg";
+  const patternVue = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/pattern_svelte.png";
+  const componentBtn = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-btn.png";
+  const componentProfileCard = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-profile-card.png";
+  const componentInfoCard = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-info-card.png";
+  const componentInfo2 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-info-2.png";
+  const componentMenu = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-menu.png";
+  const componentBtnPink = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-btn-pink.png";
+  const documentation = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/documentation.png";
+  const login = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/login.jpg";
+  const profile = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/profile.jpg";
+  const landing = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/landing.jpg";
 </script>
 
 <IndexNavbar />
