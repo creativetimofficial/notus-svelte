@@ -22,6 +22,7 @@
 <div>
   <a
     class="text-gray-600 block py-1 px-3"
+    href="#pablo"
     bind:this="{btnDropdownRef}"
     on:click="{toggleDropdown}"
   >
