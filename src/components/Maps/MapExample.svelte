@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
 
+  // init google maps
   onMount(async () => {
     let google = window.google;
     let map = document.getElementById("map-canvas");
