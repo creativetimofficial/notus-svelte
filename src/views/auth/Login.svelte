@@ -1,4 +1,6 @@
 <script>
+import { link } from "svelte-routing";
+
 const github = "../assets/img/github.svg";
 const google = "../assets/img/google.svg";
 
@@ -98,9 +100,9 @@ const google = "../assets/img/google.svg";
             </a>
           </div>
           <div class="w-1/2 text-right">
-            <router-link to="/auth/register" class="text-gray-300">
+            <a use:link href="/auth/register" class="text-gray-300">
               <small>Create new account</small>
-            </router-link>
+            </a>
           </div>
         </div>
       </div>
