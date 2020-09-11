@@ -2824,6 +2824,12 @@ video {
   color: rgba(221, 107, 32, var(--text-opacity));
 }
 
+.text-orange-700 {
+  --text-opacity: 1;
+  color: #c05621;
+  color: rgba(192, 86, 33, var(--text-opacity));
+}
+
 .text-green-500 {
   --text-opacity: 1;
   color: #48bb78;
