@@ -274,7 +274,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-            href="/"
+            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
           >
             <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
             React
