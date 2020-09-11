@@ -1,4 +1,6 @@
 <script>
+import { link } from "svelte-routing";
+
 import AuthNavbar from "components/Navbars/AuthNavbar.svelte";
 import Footer from "components/Footers/Footer.svelte";
 
@@ -146,9 +148,9 @@ const team4 = "assets/img/team-4-470x470.png";
                 faster. You can change the text and images and you're good to
                 go. Just make sure you enable them first via JavaScript.
               </p>
-              <router-link to="/" class="font-bold text-gray-800 mt-8">
+              <a use:link href="/" class="font-bold text-gray-800 mt-8">
                 Check Tailwind WebApp Svelte!
-              </router-link>
+              </a>
             </div>
 
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
