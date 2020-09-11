@@ -1,4 +1,10 @@
-<template>
+<script>
+const team2 = "../assets/img/team-2-800x800.jpg";
+
+</script>
+
+
+
   <div
     class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16"
   >
@@ -8,7 +14,7 @@
           <div class="relative">
             <img
               alt="..."
-              :src="team2"
+              src={team2}
               class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
             />
           </div>
@@ -80,15 +86,3 @@
       </div>
     </div>
   </div>
-</template>
-<script>
-import team2 from "@/assets/img/team-2-800x800.jpg";
-
-export default {
-  data() {
-    return {
-      team2,
-    };
-  },
-};
-</script>
