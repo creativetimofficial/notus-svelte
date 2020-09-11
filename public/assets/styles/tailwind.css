@@ -2878,10 +2878,10 @@ video {
   color: rgba(26, 32, 44, var(--text-opacity));
 }
 
-.hover\:text-green-600:hover {
+.hover\:text-orange-600:hover {
   --text-opacity: 1;
-  color: #38a169;
-  color: rgba(56, 161, 105, var(--text-opacity));
+  color: #dd6b20;
+  color: rgba(221, 107, 32, var(--text-opacity));
 }
 
 .italic {
