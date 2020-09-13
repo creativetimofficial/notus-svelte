@@ -90,7 +90,7 @@
                 />
                 <span class="ml-2 text-sm font-semibold text-gray-700">
                   I agree with the
-                  <a href="javascript:void(0)" class="text-red-500">
+                  <a href="#pablo" on:click={(e) => e.preventDefault()} class="text-red-500">
                     Privacy Policy
                   </a>
                 </span>
