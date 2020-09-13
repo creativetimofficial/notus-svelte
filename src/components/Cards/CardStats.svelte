@@ -1,6 +1,6 @@
 <script>
   // core components
-  
+
   export let statSubtitle = "Traffic";
   export let statTitle = "350,897";
   // The value must match one of these strings
@@ -39,7 +39,7 @@
       </div>
     </div>
     <p class="text-sm text-gray-500 mt-4">
-      <span class="mr-2" :class="[statPercentColor]">
+      <span class="mr-2 {statPercentColor}">
         <i
           class="{statArrow === 'up' ? 'fas fa-arrow-up' : 'fas fa-arrow-down'}"
         ></i>

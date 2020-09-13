@@ -74,7 +74,7 @@
             records all of his own music, giving it a warm, intimate feel with a
             solid groove structure. An artist of considerable range.
           </p>
-          <a href="javascript:void(0);" class="font-normal text-red-500">
+          <a href="#pablo" on:click={(e) => e.preventDefault()} class="font-normal text-red-500">
             Show more
           </a>
         </div>
