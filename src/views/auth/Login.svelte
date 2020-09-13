@@ -44,11 +44,12 @@
             <div class="relative w-full mb-3">
               <label
                 class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-password"
+                for="grid-email"
               >
                 Email
               </label>
               <input
+                id="grid-email"
                 type="email"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                 placeholder="Email"
@@ -58,11 +59,12 @@
             <div class="relative w-full mb-3">
               <label
                 class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-password"
+                for="grid-password"
               >
                 Password
               </label>
               <input
+                id="grid-password"
                 type="password"
                 class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                 placeholder="Password"
