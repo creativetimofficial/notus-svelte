@@ -22,11 +22,12 @@
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              for="grid-username"
             >
               Username
             </label>
             <input
+              id="grid-username"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               value="lucky.jesse"
@@ -37,11 +38,12 @@
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              for="grid-email"
             >
               Email address
             </label>
             <input
+              id="grid-email"
               type="email"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               value="jesse@example.com"
@@ -52,11 +54,12 @@
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              for="grid-first-name"
             >
               First Name
             </label>
             <input
+              id="grid-first-name"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               value="Lucky"
@@ -67,11 +70,12 @@
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              for="grid-last-name"
             >
               Last Name
             </label>
             <input
+              id="grid-last-name"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               value="Jesse"
@@ -90,11 +94,12 @@
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              for="grid-address"
             >
               Address
             </label>
             <input
+              id="grid-address"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
@@ -105,11 +110,12 @@
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              for="grid-city"
             >
               City
             </label>
             <input
+              id="grid-city"
               type="email"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               value="New York"
@@ -120,11 +126,12 @@
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              for="grid-country"
             >
               Country
             </label>
             <input
+              id="grid-country"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               value="United States"
@@ -135,11 +142,12 @@
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              for="grid-postal-code"
             >
               Postal Code
             </label>
             <input
+              id="grid-postal-code"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               value="Postal Code"
@@ -158,15 +166,16 @@
           <div class="relative w-full mb-3">
             <label
               class="block uppercase text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-password"
+              for="grid-about-me"
             >
               About me
             </label>
             <textarea
+              id="grid-about-me"
               type="text"
               class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
               rows="4"
-              value="A beautiful Dashboard for React & Tailwindcss. It is Free
+              value="A beautiful Dashboard for Svelte & Tailwindcss. It is Free
                 and Open Source."
             />
           </div>
