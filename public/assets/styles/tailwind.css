@@ -3446,6 +3446,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3550,6 +3554,10 @@ video {
 
   .lg\:static {
     position: static;
+  }
+
+  .lg\:shadow-none {
+    box-shadow: none;
   }
 
   .lg\:text-right {
