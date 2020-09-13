@@ -2160,6 +2160,10 @@ video {
   max-width: 580px;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .min-h-screen-75 {
   min-height: 75vh;
 }
