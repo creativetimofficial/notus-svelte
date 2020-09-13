@@ -130,7 +130,8 @@
                     considerable range.
                   </p>
                   <a
-                    href="javascript:void(0)"
+                    href="#pablo"
+                    on:click={(e) => e.preventDefault()}
                     class="font-normal text-red-500"
                   >
                     Show more
