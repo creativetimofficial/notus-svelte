@@ -36,7 +36,7 @@
       </button>
     </div>
     <div
-      class="lg:flex flex-grow items-center {navbarOpen ? 'block':'hidden'}"
+      class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none rounded shadow-lg {navbarOpen ? 'block':'hidden'}"
       id="example-navbar-warning"
     >
       <ul class="flex flex-col lg:flex-row list-none mr-auto">
