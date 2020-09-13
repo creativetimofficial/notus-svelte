@@ -94,7 +94,7 @@
       </div>
       <div class="flex flex-wrap mt-6 relative">
         <div class="w-1/2">
-          <a href="javascript:void(0)" class="text-gray-300">
+          <a href="#pablo" on:click={(e) => e.preventDefault()} class="text-gray-300">
             <small>Forgot password?</small>
           </a>
         </div>
