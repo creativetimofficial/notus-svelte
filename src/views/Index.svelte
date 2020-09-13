@@ -41,14 +41,14 @@
         </p>
         <div class="mt-12">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-vuejs?ref=vtw-index"
+            href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-vuejs?ref=tws-index"
             target="_blank"
             class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-red-500 active:bg-red-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
           </a>
           <a
-            href="https://github.com/creativetimofficial/vue-tailwind-webapp?ref=vtw-index"
+            href="https://github.com/creativetimofficial/vue-tailwind-webapp?ref=tws-index"
             class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
             target="_blank"
           >
@@ -255,7 +255,7 @@
           </span>
         </div>
         <a
-          href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=vtw-index"
+          href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=tws-index"
           target="_blank"
           class="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
         >
@@ -305,7 +305,7 @@
         <div class="justify-center flex flex-wrap relative">
           <div class="my-4 w-full lg:w-6/12 px-4">
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-svelte?ref=vtw-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-svelte?ref=tws-index"
               target="_blank"
             >
               <div
@@ -322,7 +322,7 @@
               </div>
             </a>
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-react?ref=vtw-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-react?ref=tws-index"
               target="_blank"
             >
               <div class="bg-blue-500 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -337,7 +337,7 @@
               </div>
             </a>
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=vtw-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=tws-index"
               target="_blank"
             >
               <div
@@ -356,7 +356,7 @@
           </div>
           <div class="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=vtw-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=tws-index"
               target="_blank"
             >
               <div class="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
@@ -371,7 +371,7 @@
               </div>
             </a>
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular?ref=vtw-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular?ref=tws-index"
               target="_blank"
             >
               <div class="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -386,7 +386,7 @@
               </div>
             </a>
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=vtw-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=tws-index"
               target="_blank"
             >
               <div
@@ -466,7 +466,7 @@
           </span>
         </div>
         <a
-          href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=vtw-index"
+          href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=tws-index"
           target="_blank"
           class="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
         >
@@ -663,7 +663,7 @@
           Get it free on Github and please help us spread the news with a Star!
         </p>
         <a
-          href="https://github.com/creativetimofficial/vue-tailwind-webapp?ref=vtw-index"
+          href="https://github.com/creativetimofficial/vue-tailwind-webapp?ref=tws-index"
           target="_blank"
           class="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
         >
@@ -721,14 +721,14 @@
         </p>
         <div class="sm:block flex flex-col mt-10">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-vuejs?ref=vtw-index"
+            href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-vuejs?ref=tws-index"
             target="_blank"
             class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-red-500 active:bg-red-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
           </a>
           <a
-            href="https://github.com/creativetimofficial/vue-tailwind-webapp?ref=vtw-index"
+            href="https://github.com/creativetimofficial/vue-tailwind-webapp?ref=tws-index"
             target="_blank"
             class="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
