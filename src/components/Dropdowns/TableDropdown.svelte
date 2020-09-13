@@ -36,19 +36,19 @@
     class="bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48 {dropdownPopoverShow ? 'block':'hidden'}"
   >
     <a
-      href="javascript:void(0);"
+      href="#pablo" on:click={(e) => e.preventDefault()}
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Action
     </a>
     <a
-      href="javascript:void(0);"
+      href="#pablo" on:click={(e) => e.preventDefault()}
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Another action
     </a>
     <a
-      href="javascript:void(0);"
+      href="#pablo" on:click={(e) => e.preventDefault()}
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Something else here
