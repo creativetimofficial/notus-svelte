@@ -13,7 +13,7 @@
     <!-- Brand -->
     <a
       class="text-white text-sm uppercase hidden lg:inline-block font-semibold"
-      href="javascript:void(0)"
+      href="#pablo" on:click={(e) => e.preventDefault()}
     >
       Dashboard
     </a>
