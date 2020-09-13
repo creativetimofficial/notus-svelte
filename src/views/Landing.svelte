@@ -541,11 +541,12 @@
                 <div class="relative w-full mb-3 mt-8">
                   <label
                     class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                    htmlFor="full-name"
+                    for="full-name"
                   >
                     Full Name
                   </label>
                   <input
+                    id="full-name"
                     type="text"
                     class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     placeholder="Full Name"
@@ -555,11 +556,12 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                    htmlFor="email"
+                    for="email"
                   >
                     Email
                   </label>
                   <input
+                    id="email"
                     type="email"
                     class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     placeholder="Email"
@@ -569,11 +571,12 @@
                 <div class="relative w-full mb-3">
                   <label
                     class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                    htmlFor="message"
+                    for="message"
                   >
                     Message
                   </label>
                   <textarea
+                    id="message"
                     rows="4"
                     cols="80"
                     class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
