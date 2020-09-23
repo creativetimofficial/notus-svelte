@@ -13,7 +13,7 @@
   import Tables from "views/admin/Tables.svelte";
   import Maps from "views/admin/Maps.svelte";
 
-  export let location
+  export let location;
 </script>
 
 <div>
