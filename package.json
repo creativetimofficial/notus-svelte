@@ -2,7 +2,7 @@
   "name": "tailwind-webapp-svelte",
   "version": "1.0.0",
   "homepage": "https://demos.creative-tim.com/tailwind-webapp-svelte/",
-  "description": "Tailwind WebApp Svelte - A free Tailwind and Svelte webapp template by Creative Tim.",
+  "description": "Tailwind WebApp Svelte - A free Tailwind CSS and Svelte WebApp template by Creative Tim.",
   "repository": "https://github.com/creativetimofficial/tailwind-webapp-svelte",
   "license": "MIT",
   "scripts": {
