@@ -9,6 +9,7 @@
   const team2 = "/assets/img/team-2-800x800.jpg";
   const team3 = "/assets/img/team-3-800x800.jpg";
   const team4 = "/assets/img/team-4-470x470.png";
+  export let location;
 </script>
 
 <div>
