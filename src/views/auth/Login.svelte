@@ -4,6 +4,7 @@
   // core components
   const github = "../assets/img/github.svg";
   const google = "../assets/img/google.svg";
+  export let location;
 </script>
 
 <div class="container mx-auto px-4 h-full">
