@@ -38,7 +38,7 @@
               <p class="mt-4 text-lg text-gray-300">
                 This is a simple example of a Landing Page you can build using
                 Tailwind WebApp Svelte. It features multiple CSS components
-                based on the Tailwindcss design system.
+                based on the Tailwind CSS design system.
               </p>
             </div>
           </div>
