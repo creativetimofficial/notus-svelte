@@ -4,6 +4,7 @@
   // core components
   const github = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/github.svg";
   const google = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/google.svg";
+  export let location;
 </script>
 
 <div class="container mx-auto px-4 h-full">

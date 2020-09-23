@@ -16,6 +16,7 @@
   const login = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/login.jpg";
   const profile = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/profile.jpg";
   const landing = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/landing.jpg";
+  export let location;
 </script>
 
 <IndexNavbar />
@@ -24,7 +25,7 @@
     <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
       <div class="pt-32 sm:pt-0">
         <h2 class="font-semibold text-4xl text-gray-700">
-          A beautiful extension for TailwindCSS.
+          A beautiful extension for Tailwind CSS.
         </h2>
         <p class="mt-4 text-lg leading-relaxed text-gray-600">
           Tailwind WebApp Svelte is Free and Open Source. It does not change or
@@ -34,21 +35,21 @@
             class="text-gray-700"
             target="_blank"
           >
-            TailwindCSS
+            Tailwind CSS
           </a>
           . It features multiple HTML elements and it comes with dynamic
           components for ReactJS, Vue and Angular.
         </p>
         <div class="mt-12">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-vuejs?ref=tws-index"
+            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/webapp?ref=tws-index"
             target="_blank"
             class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-red-500 active:bg-red-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
           </a>
           <a
-            href="https://github.com/creativetimofficial/vue-tailwind-webapp?ref=tws-index"
+            href="https://github.com/creativetimofficial/tailwind-webapp-svelte?ref=tws-index"
             class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
             target="_blank"
           >
@@ -255,7 +256,7 @@
           </span>
         </div>
         <a
-          href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=tws-index"
+          href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/webapp?ref=tws-index"
           target="_blank"
           class="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
         >
@@ -305,7 +306,7 @@
         <div class="justify-center flex flex-wrap relative">
           <div class="my-4 w-full lg:w-6/12 px-4">
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-svelte?ref=tws-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/webapp?ref=tws-index"
               target="_blank"
             >
               <div
@@ -322,7 +323,7 @@
               </div>
             </a>
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-react?ref=tws-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/webapp?ref=tws-index"
               target="_blank"
             >
               <div class="bg-blue-500 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -337,7 +338,7 @@
               </div>
             </a>
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=tws-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/webapp?ref=tws-index"
               target="_blank"
             >
               <div
@@ -356,7 +357,7 @@
           </div>
           <div class="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=tws-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/webapp?ref=tws-index"
               target="_blank"
             >
               <div class="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
@@ -371,7 +372,7 @@
               </div>
             </a>
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular?ref=tws-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/webapp?ref=tws-index"
               target="_blank"
             >
               <div class="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -386,7 +387,7 @@
               </div>
             </a>
             <a
-              href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=tws-index"
+              href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/webapp?ref=tws-index"
               target="_blank"
             >
               <div
@@ -466,7 +467,7 @@
           </span>
         </div>
         <a
-          href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=tws-index"
+          href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/webapp?ref=tws-index"
           target="_blank"
           class="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
         >
@@ -653,7 +654,7 @@
             class="text-gray-400"
             target="_blank"
           >
-            TailwindCSS
+            Tailwind CSS
           </a>
           is an open source project we wanted to continue this movement too. You
           can give this version a try to feel the design and also test the
@@ -721,7 +722,7 @@
         </p>
         <div class="sm:block flex flex-col mt-10">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-vuejs?ref=tws-index"
+            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/webapp?ref=tws-index"
             target="_blank"
             class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-red-500 active:bg-red-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
