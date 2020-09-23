@@ -39,16 +39,16 @@ to quickly set up the basic structure for your web project.
 Here are all the page from the project:
 - [Presentation](https://demos.creative-tim.com/tailwind-webapp-svelte/?ref=tws-github-readme)
 - Admin Samples
-  - [Dashboard](https://demos.creative-tim.com/tailwind-webapp-svelte/pages/admin/dashboard.html?ref=tws-github-readme)
-  - [Settings](https://demos.creative-tim.com/tailwind-webapp-svelte/pages/admin/settings.html?ref=tws-github-readme)
-  - [Tables](https://demos.creative-tim.com/tailwind-webapp-svelte/pages/admin/tables.html?ref=tws-github-readme)
-  - [Maps](https://demos.creative-tim.com/tailwind-webapp-svelte/pages/admin/maps.html?ref=tws-github-readme)
+  - [Dashboard](https://demos.creative-tim.com/tailwind-webapp-svelte/admin/dashboard?ref=tws-github-readme)
+  - [Settings](https://demos.creative-tim.com/tailwind-webapp-svelte/admin/settings?ref=tws-github-readme)
+  - [Tables](https://demos.creative-tim.com/tailwind-webapp-svelte/admin/tables?ref=tws-github-readme)
+  - [Maps](https://demos.creative-tim.com/tailwind-webapp-svelte/admin/maps?ref=tws-github-readme)
 - Authentication Samples
-  - [Login](https://demos.creative-tim.com/tailwind-webapp-svelte/pages/auth/login.html?ref=tws-github-readme)
-  - [Register](https://demos.creative-tim.com/tailwind-webapp-svelte/pages/auth/register.html?ref=tws-github-readme)
+  - [Login](https://demos.creative-tim.com/tailwind-webapp-svelte/auth/login?ref=tws-github-readme)
+  - [Register](https://demos.creative-tim.com/tailwind-webapp-svelte/auth/register?ref=tws-github-readme)
 - Presentation Samples
-  - [Landing](https://demos.creative-tim.com/tailwind-webapp-svelte/pages/landing.html?ref=tws-github-readme)
-  - [Profile](https://demos.creative-tim.com/tailwind-webapp-svelte/pages/profile.html?ref=tws-github-readme)
+  - [Landing](https://demos.creative-tim.com/tailwind-webapp-svelte/landing?ref=tws-github-readme)
+  - [Profile](https://demos.creative-tim.com/tailwind-webapp-svelte/profile?ref=tws-github-readme)
 
 
 ### Fully Coded Components
