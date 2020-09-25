@@ -20,19 +20,19 @@
         datasets: [
           {
             label: new Date().getFullYear(),
-            backgroundColor: "#3182ce",
-            borderColor: "#3182ce",
+            backgroundColor: "#4c51bf",
+            borderColor: "#4c51bf",
             data: [65, 78, 66, 44, 56, 67, 75],
-            fill: false,
+            fill: false
           },
           {
             label: new Date().getFullYear() - 1,
             fill: false,
-            backgroundColor: "#fff5f5",
-            borderColor: "#fff5f5",
-            data: [40, 68, 86, 74, 56, 60, 87],
-          },
-        ],
+            backgroundColor: "#fff",
+            borderColor: "#fff",
+            data: [40, 68, 86, 74, 56, 60, 87]
+          }
+        ]
       },
       options: {
         maintainAspectRatio: false,
@@ -111,7 +111,7 @@
 </script>
 
 <div
-  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-red-800"
+  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-gray-800"
 >
   <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
     <div class="flex flex-wrap items-center">
