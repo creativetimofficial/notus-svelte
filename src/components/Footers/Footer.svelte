@@ -24,7 +24,7 @@
     </svg>
   </div>
   <div class="container mx-auto px-4">
-    <div class="flex flex-wrap text-center lg:text-lef">
+    <div class="flex flex-wrap text-center lg:text-left">
       <div class="w-full lg:w-6/12 px-4">
         <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
         <h5 class="text-lg mt-0 mb-2 text-gray-700">
