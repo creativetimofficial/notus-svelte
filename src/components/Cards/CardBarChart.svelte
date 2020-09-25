@@ -20,21 +20,21 @@
         datasets: [
           {
             label: new Date().getFullYear(),
-            backgroundColor: "#3182ce",
-            borderColor: "#3182ce",
+            backgroundColor: "#ed64a6",
+            borderColor: "#ed64a6",
             data: [30, 78, 56, 34, 100, 45, 13],
             fill: false,
-            barThickness: 8,
+            barThickness: 8
           },
           {
             label: new Date().getFullYear() - 1,
             fill: false,
-            backgroundColor: "#f56565",
-            borderColor: "#f56565",
+            backgroundColor: "#4c51bf",
+            borderColor: "#4c51bf",
             data: [27, 68, 86, 74, 10, 4, 87],
-            barThickness: 8,
-          },
-        ],
+            barThickness: 8
+          }
+        ]
       },
       options: {
         maintainAspectRatio: false,
