@@ -99,7 +99,7 @@ const indexTemplate = `<!--
       content="Start your development with a Free Tailwindcss and Svelte Admin and Presentation Starter Kit Template. Let Tailwind Webapp Svelte amaze you with its cool features and build tools and get your project to a whole new level. "
     />
 
-    <meta itemprop="image" content="<<product_image>>" />
+    <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/395/original/opt_tailwindcss_svelte_thumbnail.jpg" />
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="product" />
@@ -114,7 +114,7 @@ const indexTemplate = `<!--
       content="Start your development with a Free Tailwindcss and Svelte Admin and Presentation Starter Kit Template. Let Tailwind Webapp Svelte amaze you with its cool features and build tools and get your project to a whole new level. "
     />
     <meta name="twitter:creator" content="@creativetim" />
-    <meta name="twitter:image" content="<<product_image>>" />
+    <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/395/original/opt_tailwindcss_svelte_thumbnail.jpg" />
 
     <!-- Open Graph data -->
     <meta property="fb:app_id" content="655968634437471" />
@@ -124,7 +124,7 @@ const indexTemplate = `<!--
       property="og:url"
       content="http://demos.creative-tim.com/tailwind-webapp-svelte/#/"
     />
-    <meta property="og:image" content="<<product_image>>" />
+    <meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/395/original/opt_tailwindcss_svelte_thumbnail.jpg" />
     <meta
       property="og:description"
       content="Start your development with a Free Tailwindcss and Svelte Admin and Presentation Starter Kit Template. Let Tailwind Webapp Svelte amaze you with its cool features and build tools and get your project to a whole new level. "
