@@ -34,7 +34,7 @@
       class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
       href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
     >
-      Tailwind WebApp Svelte
+      Notus Svelte
     </a>
     <!-- User -->
     <ul class="md:hidden items-center flex flex-wrap list-none">
@@ -60,7 +60,7 @@
               class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
               href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
             >
-              Tailwind WebApp Svelte
+              Notus Svelte
             </a>
           </div>
           <div class="w-6/12 flex justify-end">
@@ -229,7 +229,7 @@
       <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
         <li class="inline-flex">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/colors/webapp"
+            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/colors/notus"
             target="_blank"
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
           >
@@ -240,7 +240,7 @@
 
         <li class="inline-flex">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/webapp"
+            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus"
             target="_blank"
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
           >
@@ -251,7 +251,7 @@
 
         <li class="inline-flex">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/webapp"
+            href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
             target="_blank"
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
           >
@@ -262,7 +262,7 @@
 
         <li class="inline-flex">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/webapp"
+            href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
             target="_blank"
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
           >
@@ -273,7 +273,7 @@
 
         <li class="inline-flex">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/webapp"
+            href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
             target="_blank"
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
           >
@@ -284,7 +284,7 @@
 
         <li class="inline-flex">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/webapp"
+            href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
             target="_blank"
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
           >
@@ -295,7 +295,7 @@
 
         <li class="inline-flex">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/webapp"
+            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
             target="_blank"
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
           >
@@ -306,7 +306,7 @@
 
         <li class="inline-flex">
           <a
-            href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/webapp"
+            href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
             target="_blank"
             class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
           >

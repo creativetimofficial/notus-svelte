@@ -25,7 +25,7 @@
         class="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
         href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
       >
-        Tailwind WebApp Svelte
+        Notus Svelte
       </a>
       <button
         class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -43,7 +43,7 @@
         <li class="flex items-center">
           <a
             class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/webapp?ref=tws-auth-navbar"
+            href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus?ref=ns-auth-navbar"
           >
             <i
               class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
@@ -59,7 +59,7 @@
         <li class="flex items-center">
           <a
             class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fvue-tailwind-webapp%2F%23%2F"
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-svelte%2F%23%2F"
             target="_blank"
           >
             <i
@@ -72,7 +72,7 @@
         <li class="flex items-center">
           <a
             class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-            href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Ftailwind-webapp-svelte%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20Svelte%20UI%20Kit%20and%20Admin.%20Let%20Tailwind%20Webapp%20Svelte%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level."
+            href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-svelte%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20Svelte%20UI%20Kit%20and%20Admin.%20Let%20Notus%20Svelte%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level."
             target="_blank"
           >
             <i
@@ -85,7 +85,7 @@
         <li class="flex items-center">
           <a
             class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-            href="https://github.com/creativetimofficial/vue-tailwind-webapp?ref=tws-auth-navbar"
+            href="https://github.com/creativetimofficial/notus-svelte?ref=ns-auth-navbar"
             target="_blank"
           >
             <i

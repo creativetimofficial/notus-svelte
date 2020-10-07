@@ -38,7 +38,7 @@
               </h1>
               <p class="mt-4 text-lg text-gray-300">
                 This is a simple example of a Landing Page you can build using
-                Tailwind WebApp Svelte. It features multiple CSS components
+                Notus Svelte. It features multiple CSS components
                 based on the Tailwind CSS design system.
               </p>
             </div>
@@ -151,7 +151,7 @@
               Just make sure you enable them first via JavaScript.
             </p>
             <a use:link href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/" class="font-bold text-gray-800 mt-8">
-              Check Tailwind WebApp Svelte!
+              Check Notus Svelte!
             </a>
           </div>
 
