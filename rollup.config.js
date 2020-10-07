@@ -26,12 +26,12 @@ const aliases = alias({
 const indexTemplate = `<!--
 
 =========================================================
-* Tailwind WebApp Svelte - v1.0.0 based on Tailwind Starter Kit by Creative Tim
+* Notus Svelte - v1.0.0 based on Tailwind Starter Kit by Creative Tim
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/tailwind-webapp-svelte
+* Product Page: https://www.creative-tim.com/product/notus-svelte
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/tailwind-webapp-svelte/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/notus-svelte/blob/master/LICENSE.md)
 
 * Tailwind Starter Kit Page: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
 
@@ -79,24 +79,24 @@ const indexTemplate = `<!--
     <!-- Canonical SEO -->
     <link
       rel="canonical"
-      href="https://www.creative-tim.com/product/tailwind-webapp-svelte"
+      href="https://www.creative-tim.com/product/notus-svelte"
     />
 
     <!--  Social tags      -->
     <meta
       name="keywords"
-      content="free template, free kit, free dashboard, free webapp, free web app, freebie, free, kit, dashboard, webapp, we bapp, starter kit, starter dashboard, starter admin, starter webapp, starter web app, tailwind, tailwindcss, html kit, svelte kit, html dashboard, svelte dashboard, html webapp, svelte webapp html web app, svelte web app"
+      content="free template, free kit, free dashboard, free webapp, free web app, freebie, free, kit, dashboard, webapp, we bapp, starter kit, starter dashboard, starter admin, starter webapp, starter web app, tailwind, tailwindcss, html kit, svelte kit, html dashboard, svelte dashboard, html webapp, svelte webapp html web app, svelte web app, notus, notus webapp, notus svelte, notus javascript, notus kit, notus dashboard, notus admin"
     />
     <meta
       name="description"
-      content="Start your development with a Free Tailwindcss and Svelte Admin and Presentation Starter Kit Template. Let Tailwind Webapp Svelte amaze you with its cool features and build tools and get your project to a whole new level. "
+      content="Start your development with a Free Tailwind CSS and Svelte UI Kit and Admin. Let Notus Svelte amaze you with its cool features and build tools and get your project to a whole new level."
     />
 
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Tailwind Webapp Svelte by Creative Tim" />
+    <meta itemprop="name" content="Notus Svelte by Creative Tim" />
     <meta
       itemprop="description"
-      content="Start your development with a Free Tailwindcss and Svelte Admin and Presentation Starter Kit Template. Let Tailwind Webapp Svelte amaze you with its cool features and build tools and get your project to a whole new level. "
+      content="Start your development with a Free Tailwind CSS and Svelte UI Kit and Admin. Let Notus Svelte amaze you with its cool features and build tools and get your project to a whole new level."
     />
 
     <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/395/original/opt_tailwindcss_svelte_thumbnail.jpg" />
@@ -106,28 +106,28 @@ const indexTemplate = `<!--
     <meta name="twitter:site" content="@creativetim" />
     <meta
       name="twitter:title"
-      content="Tailwind Webapp Svelte by Creative Tim"
+      content="Notus Svelte by Creative Tim"
     />
 
     <meta
       name="twitter:description"
-      content="Start your development with a Free Tailwindcss and Svelte Admin and Presentation Starter Kit Template. Let Tailwind Webapp Svelte amaze you with its cool features and build tools and get your project to a whole new level. "
+      content="Start your development with a Free Tailwind CSS and Svelte UI Kit and Admin. Let Notus Svelte amaze you with its cool features and build tools and get your project to a whole new level."
     />
     <meta name="twitter:creator" content="@creativetim" />
     <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/395/original/opt_tailwindcss_svelte_thumbnail.jpg" />
 
     <!-- Open Graph data -->
     <meta property="fb:app_id" content="655968634437471" />
-    <meta property="og:title" content="Tailwind Webapp Svelte by Creative Tim" />
+    <meta property="og:title" content="Notus Svelte by Creative Tim" />
     <meta property="og:type" content="article" />
     <meta
       property="og:url"
-      content="http://demos.creative-tim.com/tailwind-webapp-svelte/#/"
+      content="http://demos.creative-tim.com/notus-svelte/#/"
     />
     <meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/395/original/opt_tailwindcss_svelte_thumbnail.jpg" />
     <meta
       property="og:description"
-      content="Start your development with a Free Tailwindcss and Svelte Admin and Presentation Starter Kit Template. Let Tailwind Webapp Svelte amaze you with its cool features and build tools and get your project to a whole new level. "
+      content="Start your development with a Free Tailwind CSS and Svelte UI Kit and Admin. Let Notus Svelte amaze you with its cool features and build tools and get your project to a whole new level."
     />
     <meta property="og:site_name" content="Creative Tim" />
 
@@ -142,7 +142,7 @@ const indexTemplate = `<!--
       href="<<live-preview-link>>/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
     />
     <link rel="stylesheet" href="<<live-preview-link>>/assets/styles/tailwind.css" />
-    <title>Tailwind WebApp Svelte</title>
+    <title>Notus Svelte</title>
 
     <script>
       if (process === undefined) {
@@ -160,7 +160,7 @@ const indexTemplate = `<!--
     <!-- End Google Tag Manager (noscript) -->
     <noscript>
       <strong
-        >We're sorry but tailwind-webapp-svelte doesn't work properly without
+        >We're sorry but notus-svelte doesn't work properly without
         JavaScript enabled. Please enable it to continue.</strong
       >
     </noscript>
