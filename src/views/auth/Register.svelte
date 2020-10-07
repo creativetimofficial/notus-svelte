@@ -1,7 +1,7 @@
 <script>
   // core components
-  const github = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/github.svg";
-  const google = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/google.svg";
+  const github = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/github.svg";
+  const google = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/google.svg";
   export let location;
 </script>
 

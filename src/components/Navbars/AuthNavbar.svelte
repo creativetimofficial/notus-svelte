@@ -23,7 +23,7 @@
       <a
         use:link
         class="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
-        href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
+        href="{process.env.PRODUCTION ? '/notus-svelte':''}/"
       >
         Notus Svelte
       </a>

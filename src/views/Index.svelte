@@ -5,17 +5,17 @@
   import IndexNavbar from "components/Navbars/IndexNavbar.svelte";
   import Footer from "components/Footers/Footer.svelte";
 
-  const patternVue = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/pattern_svelte.png";
-  const componentBtn = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-btn.png";
-  const componentProfileCard = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-profile-card.png";
-  const componentInfoCard = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-info-card.png";
-  const componentInfo2 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-info-2.png";
-  const componentMenu = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-menu.png";
-  const componentBtnPink = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/component-btn-pink.png";
-  const documentation = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/documentation.png";
-  const login = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/login.jpg";
-  const profile = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/profile.jpg";
-  const landing = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/landing.jpg";
+  const patternVue = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/pattern_svelte.png";
+  const componentBtn = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/component-btn.png";
+  const componentProfileCard = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/component-profile-card.png";
+  const componentInfoCard = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/component-info-card.png";
+  const componentInfo2 = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/component-info-2.png";
+  const componentMenu = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/component-menu.png";
+  const componentBtnPink = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/component-btn-pink.png";
+  const documentation = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/documentation.png";
+  const login = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/login.jpg";
+  const profile = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/profile.jpg";
+  const landing = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/landing.jpg";
   export let location;
 </script>
 
@@ -583,7 +583,7 @@
             <h5 class="text-xl font-semibold pb-4 text-center">
               Login Page
             </h5>
-            <Link to="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/login">
+            <Link to="{process.env.PRODUCTION ? '/notus-svelte':''}/auth/login">
               <div
                 class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
               >
@@ -600,7 +600,7 @@
             <h5 class="text-xl font-semibold pb-4 text-center">
               Profile Page
             </h5>
-            <Link to="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/profile">
+            <Link to="{process.env.PRODUCTION ? '/notus-svelte':''}/profile">
               <div
                 class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
               >
@@ -617,7 +617,7 @@
             <h5 class="text-xl font-semibold pb-4 text-center">
               Landing Page
             </h5>
-            <Link to="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/landing">
+            <Link to="{process.env.PRODUCTION ? '/notus-svelte':''}/landing">
               <div
                 class="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
               >

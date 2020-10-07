@@ -2,16 +2,16 @@
   // core components
   import TableDropdown from "components/Dropdowns/TableDropdown.svelte";
 
-  const bootstrap = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/bootstrap.jpg";
-  const angular = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/angular.jpg";
-  const sketch = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/sketch.jpg";
-  const react = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/react.jpg";
-  const vue = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/react.jpg";
+  const bootstrap = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/bootstrap.jpg";
+  const angular = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/angular.jpg";
+  const sketch = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/sketch.jpg";
+  const react = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/react.jpg";
+  const vue = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/react.jpg";
 
-  const team1 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/team-1-800x800.jpg";
-  const team2 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/team-2-800x800.jpg";
-  const team3 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/team-3-800x800.jpg";
-  const team4 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/team-4-470x470.png";
+  const team1 = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/team-1-800x800.jpg";
+  const team2 = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/team-2-800x800.jpg";
+  const team3 = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/team-3-800x800.jpg";
+  const team4 = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/team-4-470x470.png";
 
   // can be one of light or dark
   export let color = "light";

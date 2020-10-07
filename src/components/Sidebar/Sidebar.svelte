@@ -32,7 +32,7 @@
     <a
       use:link
       class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
-      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
+      href="{process.env.PRODUCTION ? '/notus-svelte':''}/"
     >
       Notus Svelte
     </a>
@@ -58,7 +58,7 @@
             <a
               use:link
               class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
-              href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/"
+              href="{process.env.PRODUCTION ? '/notus-svelte':''}/"
             >
               Notus Svelte
             </a>
@@ -99,7 +99,7 @@
         <li class="items-center">
           <a
             use:link
-            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/dashboard"
+            href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/dashboard"
             class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/dashboard') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
@@ -112,7 +112,7 @@
         <li class="items-center">
           <a
             use:link
-            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/settings"
+            href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/settings"
             class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/settings') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
@@ -125,7 +125,7 @@
         <li class="items-center">
           <a
             use:link
-            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/tables"
+            href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/tables"
             class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/tables') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
@@ -138,7 +138,7 @@
         <li class="items-center">
           <a
             use:link
-            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/maps"
+            href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/maps"
             class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/maps') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
           >
             <i
@@ -164,7 +164,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/login"
+            href="{process.env.PRODUCTION ? '/notus-svelte':''}/auth/login"
           >
             <i class="fas fa-fingerprint text-gray-400 mr-2 text-sm"></i>
             Login
@@ -175,7 +175,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/register"
+            href="{process.env.PRODUCTION ? '/notus-svelte':''}/auth/register"
           >
             <i class="fas fa-clipboard-list text-gray-400 mr-2 text-sm"></i>
             Register
@@ -198,7 +198,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/landing"
+            href="{process.env.PRODUCTION ? '/notus-svelte':''}/landing"
           >
             <i class="fas fa-newspaper text-gray-400 mr-2 text-sm"></i>
             Landing Page
@@ -209,7 +209,7 @@
           <a
             use:link
             class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-            href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/profile"
+            href="{process.env.PRODUCTION ? '/notus-svelte':''}/profile"
           >
             <i class="fas fa-user-circle text-gray-400 mr-2 text-sm"></i>
             Profile Page

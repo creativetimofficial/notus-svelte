@@ -3,7 +3,7 @@
   import AuthNavbar from "components/Navbars/AuthNavbar.svelte";
   import Footer from "components/Footers/Footer.svelte";
 
-  const team2 = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'/') + "assets/img/team-2-800x800.jpg";
+  const team2 = (process.env.PRODUCTION ? '/notus-svelte/':'/') + "assets/img/team-2-800x800.jpg";
   export let location;
 </script>
 

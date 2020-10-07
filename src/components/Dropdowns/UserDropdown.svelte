@@ -3,7 +3,7 @@
   import { createPopper } from "@popperjs/core";
 
   // core components
-  const image = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/team-1-800x800.jpg";
+  const image = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/team-1-800x800.jpg";
 
   let dropdownPopoverShow = false;
 

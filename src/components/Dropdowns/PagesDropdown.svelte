@@ -43,28 +43,28 @@
     </span>
     <a
       use:link
-      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/dashboard"
+      href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/dashboard"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Dashboard
     </a>
     <a
       use:link
-      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/settings"
+      href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/settings"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Settings
     </a>
     <a
       use:link
-      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/tables"
+      href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/tables"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Tables
     </a>
     <a
       use:link
-      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/admin/maps"
+      href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/maps"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Maps
@@ -77,14 +77,14 @@
     </span>
     <a
       use:link
-      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/login"
+      href="{process.env.PRODUCTION ? '/notus-svelte':''}/auth/login"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Login
     </a>
     <a
       use:link
-      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/register"
+      href="{process.env.PRODUCTION ? '/notus-svelte':''}/auth/register"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Register
@@ -97,14 +97,14 @@
     </span>
     <a
       use:link
-      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/landing"
+      href="{process.env.PRODUCTION ? '/notus-svelte':''}/landing"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Lading
     </a>
     <a
       use:link
-      href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/profile"
+      href="{process.env.PRODUCTION ? '/notus-svelte':''}/profile"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
     >
       Profile

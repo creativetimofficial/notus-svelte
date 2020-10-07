@@ -2,8 +2,8 @@
   import { link } from "svelte-routing";
 
   // core components
-  const github = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/github.svg";
-  const google = (process.env.PRODUCTION ? '/tailwind-webapp-svelte/':'../') + "assets/img/google.svg";
+  const github = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/github.svg";
+  const google = (process.env.PRODUCTION ? '/notus-svelte/':'../') + "assets/img/google.svg";
   export let location;
 </script>
 
@@ -102,7 +102,7 @@
           </a>
         </div>
         <div class="w-1/2 text-right">
-          <a use:link href="{process.env.PRODUCTION ? '/tailwind-webapp-svelte':''}/auth/register" class="text-gray-300">
+          <a use:link href="{process.env.PRODUCTION ? '/notus-svelte':''}/auth/register" class="text-gray-300">
             <small>Create new account</small>
           </a>
         </div>
