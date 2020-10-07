@@ -17,7 +17,7 @@
         >
           Copyright © {date}
           <a
-            href="https://www.creative-tim.com?ref=tws-footer-small"
+            href="https://www.creative-tim.com?ref=ns-footer-small"
             class="text-white hover:text-gray-400 text-sm font-semibold py-1"
           >
             Creative Tim
@@ -28,7 +28,7 @@
         <ul class="flex flex-wrap list-none md:justify-end justify-center">
           <li>
             <a
-              href="https://www.creative-tim.com?ref=tws-footer-small"
+              href="https://www.creative-tim.com?ref=ns-footer-small"
               class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
             >
               Creative Tim
@@ -36,7 +36,7 @@
           </li>
           <li>
             <a
-              href="https://www.creative-tim.com/presentation?ref=tws-footer-small"
+              href="https://www.creative-tim.com/presentation?ref=ns-footer-small"
               class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
             >
               About Us
@@ -44,7 +44,7 @@
           </li>
           <li>
             <a
-              href="http://blog.creative-tim.com?ref=tws-footer-small"
+              href="http://blog.creative-tim.com?ref=ns-footer-small"
               class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
             >
               Blog
@@ -52,7 +52,7 @@
           </li>
           <li>
             <a
-              href="https://github.com/creativetimofficial/vue-tailwind-webapp/blob/master/LICENSE.md?ref=tws-footer-small"
+              href="https://github.com/creativetimofficial/notus-svelte/blob/master/LICENSE.md?ref=ns-footer-small"
               class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
             >
               MIT License
