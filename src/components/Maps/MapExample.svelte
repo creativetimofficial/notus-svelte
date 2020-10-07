@@ -68,7 +68,7 @@
     });
 
     const contentString =
-      '<div class="info-window-content"><h2>Tailwind WebApp Svelte</h2>' +
+      '<div class="info-window-content"><h2>Notus Svelte</h2>' +
       "<p>A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</p></div>";
 
     const infowindow = new google.maps.InfoWindow({
