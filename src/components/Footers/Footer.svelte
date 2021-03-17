@@ -110,7 +110,7 @@
               <li>
                 <a
                   class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                  href="https://github.com/creativetimofficial/notus-svelte/blob/master/LICENSE.md?ref=ns-footer"
+                  href="https://github.com/creativetimofficial/notus-svelte/blob/main/LICENSE.md?ref=ns-footer"
                 >
                   MIT License
                 </a>
