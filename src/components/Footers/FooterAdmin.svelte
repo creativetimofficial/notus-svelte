@@ -48,7 +48,7 @@
           </li>
           <li>
             <a
-              href="https://github.com/creativetimofficial/notus-svelte/blob/master/LICENSE.md?ref=ns-footer-admin"
+              href="https://github.com/creativetimofficial/notus-svelte/blob/main/LICENSE.md?ref=ns-footer-admin"
               class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
             >
               MIT License
