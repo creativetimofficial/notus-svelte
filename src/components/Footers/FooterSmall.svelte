@@ -52,7 +52,7 @@
           </li>
           <li>
             <a
-              href="https://github.com/creativetimofficial/notus-svelte/blob/master/LICENSE.md?ref=ns-footer-small"
+              href="https://github.com/creativetimofficial/notus-svelte/blob/main/LICENSE.md?ref=ns-footer-small"
               class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
             >
               MIT License
