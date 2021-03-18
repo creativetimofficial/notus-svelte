@@ -43,7 +43,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus?ref=ns-index"
             target="_blank"
-            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-red-500 active:bg-red-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-red-400 active:bg-red-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
           </a>
@@ -92,7 +92,7 @@
         class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
       >
         <div
-          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-500"
+          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-400"
         >
           <img
             alt="..."
@@ -108,7 +108,7 @@
             >
               <polygon
                 points="-30,95 583,95 583,65"
-                class="text-red-500 fill-current"
+                class="text-red-400 fill-current"
               ></polygon>
             </svg>
             <h4 class="text-xl font-bold text-white">
@@ -723,7 +723,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus?ref=ns-index"
             target="_blank"
-            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-red-500 active:bg-red-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+            class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-red-400 active:bg-red-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
           </a>
