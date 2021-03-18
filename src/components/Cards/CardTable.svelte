@@ -164,7 +164,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-circle text-green-500 mr-2"></i>
+            <i class="fas fa-circle text-emerald-500 mr-2"></i>
             completed
           </td>
           <td
@@ -200,11 +200,11 @@
               <span class="mr-2">100%</span>
               <div class="relative w-full">
                 <div
-                  class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
+                  class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
                 >
                   <div
                     style="width: 100%;"
-                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                   ></div>
                 </div>
               </div>
@@ -387,7 +387,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-circle text-green-500 mr-2"></i>
+            <i class="fas fa-circle text-emerald-500 mr-2"></i>
             completed
           </td>
           <td
@@ -423,11 +423,11 @@
               <span class="mr-2">100%</span>
               <div class="relative w-full">
                 <div
-                  class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
+                  class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
                 >
                   <div
                     style="width: 100%;"
-                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                   ></div>
                 </div>
               </div>
