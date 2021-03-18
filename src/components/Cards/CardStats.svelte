@@ -9,7 +9,7 @@
   export let statPercent = "3.48";
   // can be any of the text color utilities
   // from tailwindcss
-  export let statPercentColor = "text-green-500";
+  export let statPercentColor = "text-emerald-500";
   export let statDescripiron = "Since last month";
   export let statIconName = "far fa-chart-bar";
   // can be any of the background color utilities
