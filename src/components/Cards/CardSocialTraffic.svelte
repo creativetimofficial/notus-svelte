@@ -86,11 +86,11 @@
               <span class="mr-2">70%</span>
               <div class="relative w-full">
                 <div
-                  class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
+                  class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
                 >
                   <div
                     style="width: 70%;"
-                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                   ></div>
                 </div>
               </div>
@@ -144,11 +144,11 @@
               <span class="mr-2">75%</span>
               <div class="relative w-full">
                 <div
-                  class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
+                  class="overflow-hidden h-2 text-xs flex rounded bg-lightBlue-200"
                 >
                   <div
                     style="width: 75%;"
-                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
+                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-lightBlue-500"
                   ></div>
                 </div>
               </div>
