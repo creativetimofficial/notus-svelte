@@ -22,7 +22,7 @@
     >
       <a
         use:link
-        class="text-gray-800 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
+        class="text-coolGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
         href="/"
       >
         Notus Svelte
@@ -42,10 +42,10 @@
       <ul class="flex flex-col lg:flex-row list-none mr-auto">
         <li class="flex items-center">
           <a
-            class="hover:text-gray-600 text-gray-800 px-3 py-2 flex items-center text-xs uppercase font-bold"
+            class="hover:text-coolGray-500 text-coolGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold"
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus?ref=ns-index-navbar"
           >
-            <i class="text-gray-500 far fa-file-alt text-lg leading-lg mr-2" />
+            <i class="text-coolGray-400 far fa-file-alt text-lg leading-lg mr-2" />
             Docs
           </a>
         </li>
@@ -56,33 +56,33 @@
         </li>
         <li class="flex items-center">
           <a
-            class="hover:text-gray-600 text-gray-800 px-3 py-2 flex items-center text-xs uppercase font-bold"
+            class="hover:text-coolGray-500 text-coolGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold"
             href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-svelte%2F%23%2F"
             target="_blank"
           >
-            <i class="text-gray-500 fab fa-facebook text-lg leading-lg" />
+            <i class="text-coolGray-400 fab fa-facebook text-lg leading-lg" />
             <span class="lg:hidden inline-block ml-2">Share</span>
           </a>
         </li>
 
         <li class="flex items-center">
           <a
-            class="hover:text-gray-600 text-gray-800 px-3 py-2 flex items-center text-xs uppercase font-bold"
+            class="hover:text-coolGray-500 text-coolGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold"
             href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-svelte%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20Svelte%20UI%20Kit%20and%20Admin.%20Let%20Notus%20Svelte%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level."
             target="_blank"
           >
-            <i class="text-gray-500 fab fa-twitter text-lg leading-lg" />
+            <i class="text-coolGray-400 fab fa-twitter text-lg leading-lg" />
             <span class="lg:hidden inline-block ml-2">Tweet</span>
           </a>
         </li>
 
         <li class="flex items-center">
           <a
-            class="hover:text-gray-600 text-gray-800 px-3 py-2 flex items-center text-xs uppercase font-bold"
+            class="hover:text-coolGray-500 text-coolGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold"
             href="https://github.com/creativetimofficial/notus-svelte?ref=ns-index-navbar"
             target="_blank"
           >
-            <i class="text-gray-500 fab fa-github text-lg leading-lg" />
+            <i class="text-coolGray-400 fab fa-github text-lg leading-lg" />
             <span class="lg:hidden inline-block ml-2">Star</span>
           </a>
         </li>
