@@ -35,9 +35,9 @@
             class="text-coolGray-600"
             target="_blank"
           >
-            Tailwind CSS
+            Tailwind CSS.
           </a>
-          . It features multiple HTML elements and it comes with dynamic
+          It features multiple HTML elements and it comes with dynamic
           components for ReactJS, Vue and Angular.
         </p>
         <div class="mt-12">
