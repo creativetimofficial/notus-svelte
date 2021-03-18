@@ -28,8 +28,7 @@
           Notus Svelte - A beautiful extension for Tailwind CSS.
         </h2>
         <p class="mt-4 text-lg leading-relaxed text-coolGray-500">
-          Notus Svelte is Free and Open Source. It does not change or
-          add any CSS to the already one from
+          Notus Svelte is Free and Open Source. It does not change any of the CSS from
           <a
             href="https://tailwindcss.com/?ref=creativetim"
             class="text-coolGray-600"
