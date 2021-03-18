@@ -26,14 +26,14 @@
 
 <div>
   <a
-    class="text-gray-600 block"
+    class="text-coolGray-500 block"
     href="#pablo"
     bind:this="{btnDropdownRef}"
     on:click="{toggleDropdown}"
   >
     <div class="items-center flex">
       <span
-        class="w-12 h-12 text-sm text-white bg-gray-300 inline-flex items-center justify-center rounded-full"
+        class="w-12 h-12 text-sm text-white bg-coolGray-200 inline-flex items-center justify-center rounded-full"
       >
         <img
           alt="..."
@@ -49,26 +49,26 @@
   >
     <a
       href="#pablo" on:click={(e) => e.preventDefault()}
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Action
     </a>
     <a
       href="#pablo" on:click={(e) => e.preventDefault()}
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Another action
     </a>
     <a
       href="#pablo" on:click={(e) => e.preventDefault()}
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Something else here
     </a>
-    <div class="h-0 my-2 border border-solid border-gray-200" />
+    <div class="h-0 my-2 border border-solid border-coolGray-100" />
     <a
       href="#pablo" on:click={(e) => e.preventDefault()}
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Seprated link
     </a>
