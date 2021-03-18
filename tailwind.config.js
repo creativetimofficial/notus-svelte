@@ -93,7 +93,9 @@ module.exports = {
     "visited",
     "disabled",
   ],
-  plugins: [require("@tailwindcss/forms"),plugin(function ({ addComponents, theme }) {
+  plugins: [
+    require("@tailwindcss/forms"),
+    plugin(function ({ addComponents, theme }) {
       const screens = theme("screens", {});
       addComponents([
         {
@@ -135,5 +137,6 @@ module.exports = {
           },
         },
       ]);
-    }),],
+    }),
+  ],
 };
