@@ -3,6 +3,19 @@
 ## [1.1.0] date
 ### Bug fixing
 - Rename `master` branch to `main`
+- To make a lot of our changes, we've followed the instructions from here (minus the `colors` and `font-sizes`): https://tailwindcss.com/docs/upgrading-to-v2
+  - For the colors, the only change that we made, is the fact that we've added all Tailwind CSS colors to our `tailwind.config.js` files, and inside our product, all `{type}-gray-{number}` classes were renamed to `{type}-coolGray-{number}`
+  - After that, we've changed `{type}-coolGray-{number}` to `{type}-coolGray-{lower-number}`, i.e. (`100` became `50`, `200` became `100`, ..., `900` became `800`)
+    - You can achieve this, by search in your whole project for `coolGray-100` and replace it with `coolGray-50`
+    - Then, you search in your whole project for `coolGray-200` and replace it with `coolGray-100`
+    - Then, you search in your whole project for `coolGray-300` and replace it with `coolGray-200`
+    - Then, you search in your whole project for `coolGray-400` and replace it with `coolGray-300`
+    - Then, you search in your whole project for `coolGray-500` and replace it with `coolGray-400`
+    - Then, you search in your whole project for `coolGray-600` and replace it with `coolGray-500`
+    - Then, you search in your whole project for `coolGray-700` and replace it with `coolGray-600`
+    - Then, you search in your whole project for `coolGray-800` and replace it with `coolGray-700`
+    - Then, you search in your whole project for `coolGray-900` and replace it with `coolGray-800`
+- `lg:bg-transparent` is not working anymore, so we've changed it with `lg:bg-opacity-0`
 ### Major style changes
 
 ### Deleted components
@@ -10,15 +23,28 @@
 ### Added components
 
 ### Deleted dependencies
-
+- `@tailwindcss/custom-forms`
 ### Added dependencies
-
+- `@tailwindcss/forms` (replaces `@tailwindcss/custom-forms`)
+- `autoprefixer`
+- `postcss`
 ### Updated dependencies
 ```
-
+@fortawesome/fontawesome-free   5.14.0   →   5.15.3
+@popperjs/core                   2.5.1   →    2.9.1
+@rollup/plugin-alias             3.1.1   →    3.1.2
+chart.js                         2.9.3   →    2.9.4
+sirv-cli                         1.0.6   →   1.0.11
+svelte-routing                   1.4.2   →    1.5.0
+tailwindcss                     1.8.10   →    2.0.4
+@rollup/plugin-commonjs         15.1.0   →   17.1.0
+@rollup/plugin-node-resolve      9.0.0   →   11.2.0
+rollup                          2.28.1   →   2.41.5
+rollup-plugin-svelte             6.0.1   →    7.1.0
+svelte                          3.26.0   →   3.35.0
 ```
 ### Warning
-_If needed_
+_On a clean install there may be some warnings from request, chokidar, fsevents - they come from node_modules, and they do not affect the product at all._
 
 ## [1.0.0] 2020-09-29
 ### Original Release
