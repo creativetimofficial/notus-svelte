@@ -111,12 +111,12 @@
 </script>
 
 <div
-  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-gray-800"
+  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-coolGray-700"
 >
   <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
     <div class="flex flex-wrap items-center">
       <div class="relative w-full max-w-full flex-grow flex-1">
-        <h6 class="uppercase text-gray-200 mb-1 text-xs font-semibold">
+        <h6 class="uppercase text-coolGray-100 mb-1 text-xs font-semibold">
           Overview
         </h6>
         <h2 class="text-white text-xl font-semibold">
