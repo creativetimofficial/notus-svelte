@@ -15,7 +15,7 @@
             statTitle="350,897"
             statArrow="up"
             statPercent="3.48"
-            statPercentColor="text-green-500"
+            statPercentColor="text-emerald-500"
             statDescripiron="Since last month"
             statIconName="far fa-chart-bar"
             statIconColor="bg-red-500"
@@ -51,10 +51,10 @@
             statTitle="49,65%"
             statArrow="up"
             statPercent="12"
-            statPercentColor="text-green-500"
+            statPercentColor="text-emerald-500"
             statDescripiron="Since last month"
             statIconName="fas fa-percent"
-            statIconColor="bg-green-500"
+            statIconColor="bg-emerald-500"
           />
         </div>
       </div>
