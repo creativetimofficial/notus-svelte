@@ -24,20 +24,19 @@
   <div class="container mx-auto items-center flex flex-wrap">
     <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
       <div class="pt-32 sm:pt-0">
-        <h2 class="font-semibold text-4xl text-gray-700">
+        <h2 class="font-semibold text-4xl text-coolGray-600">
           Notus Svelte - A beautiful extension for Tailwind CSS.
         </h2>
-        <p class="mt-4 text-lg leading-relaxed text-gray-600">
-          Notus Svelte is Free and Open Source. It does not change or
-          add any CSS to the already one from
+        <p class="mt-4 text-lg leading-relaxed text-coolGray-500">
+          Notus Svelte is Free and Open Source. It does not change any of the CSS from
           <a
             href="https://tailwindcss.com/?ref=creativetim"
-            class="text-gray-700"
+            class="text-coolGray-600"
             target="_blank"
           >
-            Tailwind CSS
+            Tailwind CSS.
           </a>
-          . It features multiple HTML elements and it comes with dynamic
+          It features multiple HTML elements and it comes with dynamic
           components for ReactJS, Vue and Angular.
         </p>
         <div class="mt-12">
@@ -50,7 +49,7 @@
           </a>
           <a
             href="https://github.com/creativetimofficial/notus-svelte?ref=ns-index"
-            class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+            class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-coolGray-700 active:bg-coolGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
             target="_blank"
           >
             Github Star
@@ -67,7 +66,7 @@
   />
 </section>
 
-<section class="mt-48 md:mt-40 pb-40 relative bg-gray-200">
+<section class="mt-48 md:mt-40 pb-40 relative bg-coolGray-100">
   <div
     class="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
     style="transform: translateZ(0);"
@@ -82,7 +81,7 @@
       y="0"
     >
       <polygon
-        class="text-gray-200 fill-current"
+        class="text-coolGray-100 fill-current"
         points="2560 0 2560 100 0 100"
       ></polygon>
     </svg>
@@ -130,14 +129,14 @@
             <div class="relative flex flex-col mt-4">
               <div class="px-4 py-5 flex-auto">
                 <div
-                  class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
+                  class="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
                 >
                   <i class="fas fa-sitemap"></i>
                 </div>
                 <h6 class="text-xl mb-1 font-semibold">
                   CSS Components
                 </h6>
-                <p class="mb-4 text-gray-600">
+                <p class="mb-4 text-coolGray-500">
                   Notus Svelte comes with a huge number of Fully Coded CSS
                   components.
                 </p>
@@ -146,14 +145,14 @@
             <div class="relative flex flex-col min-w-0">
               <div class="px-4 py-5 flex-auto">
                 <div
-                  class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
+                  class="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
                 >
                   <i class="fas fa-drafting-compass"></i>
                 </div>
                 <h6 class="text-xl mb-1 font-semibold">
                   JavaScript Components
                 </h6>
-                <p class="mb-4 text-gray-600">
+                <p class="mb-4 text-coolGray-500">
                   We also feature many dynamic components for React, NextJS, Vue
                   and Angular.
                 </p>
@@ -164,12 +163,12 @@
             <div class="relative flex flex-col min-w-0 mt-4">
               <div class="px-4 py-5 flex-auto">
                 <div
-                  class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
+                  class="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
                 >
                   <i class="fas fa-newspaper"></i>
                 </div>
                 <h6 class="text-xl mb-1 font-semibold">Pages</h6>
-                <p class="mb-4 text-gray-600">
+                <p class="mb-4 text-coolGray-500">
                   This extension also comes with 3 sample pages. They are fully
                   coded so you can start working instantly.
                 </p>
@@ -178,14 +177,14 @@
             <div class="relative flex flex-col min-w-0">
               <div class="px-4 py-5 flex-auto">
                 <div
-                  class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
+                  class="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
                 >
                   <i class="fas fa-file-alt"></i>
                 </div>
                 <h6 class="text-xl mb-1 font-semibold">
                   Documentation
                 </h6>
-                <p class="mb-4 text-gray-600">
+                <p class="mb-4 text-coolGray-500">
                   Built by developers for developers. You will love how easy is
                   to to work with Notus Svelte.
                 </p>
@@ -201,56 +200,56 @@
     <div class="flex flex-wrap items-center">
       <div class="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
         <div
-          class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
+          class="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
         >
           <i class="fas fa-sitemap text-xl"></i>
         </div>
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           CSS Components
         </h3>
-        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-coolGray-600">
           Every element that you need in a product comes built in as a
           component. All components fit perfectly with each other and can have
           different colours.
         </p>
         <div class="block pb-6">
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Buttons
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Inputs
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Labels
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Menus
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Navbars
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Pagination
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Progressbars
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Typography
           </span>
@@ -258,7 +257,7 @@
         <a
           href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=ns-index"
           target="_blank"
-          class="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
+          class="font-bold text-coolGray-700 hover:text-coolGray-500 ease-linear transition-all duration-150"
         >
           View All
           <i class="fa fa-angle-double-right ml-1 leading-relaxed"></i>
@@ -342,7 +341,7 @@
               target="_blank"
             >
               <div
-                class="bg-gray-800 shadow-lg rounded-lg text-center p-8 mt-8"
+                class="bg-coolGray-700 shadow-lg rounded-lg text-center p-8 mt-8"
               >
                 <img
                   alt="..."
@@ -409,59 +408,59 @@
 
       <div class="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
         <div
-          class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
+          class="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
         >
           <i class="fas fa-drafting-compass text-xl"></i>
         </div>
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Javascript Components
         </h3>
-        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-coolGray-600">
           In order to create a great User Experience some components require
           JavaScript. In this way you can manipulate the elements on the page
           and give more options to your users.
         </p>
-        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-coolGray-600">
           We created a set of Components that are dynamic and come to help you.
         </p>
         <div class="block pb-6">
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Alerts
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Dropdowns
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Menus
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Modals
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Navbars
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Popovers
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Tabs
           </span>
           <span
-            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2"
+            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
           >
             Tooltips
           </span>
@@ -469,7 +468,7 @@
         <a
           href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=ns-index"
           target="_blank"
-          class="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
+          class="font-bold text-coolGray-700 hover:text-coolGray-500 ease-linear transition-all duration-150"
         >
           View all
           <i class="fa fa-angle-double-right ml-1 leading-relaxed"></i>
@@ -483,14 +482,14 @@
       <div class="w-full md:w-5/12 ml-auto px-12 md:px-4">
         <div class="md:pr-12">
           <div
-            class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
+            class="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
           >
             <i class="fas fa-file-alt text-xl"></i>
           </div>
           <h3 class="text-3xl font-semibold">
             Complex Documentation
           </h3>
-          <p class="mt-4 text-lg leading-relaxed text-gray-600">
+          <p class="mt-4 text-lg leading-relaxed text-coolGray-500">
             This extension comes a lot of fully coded examples that help you get
             started faster. You can adjust the colors and also the programming
             language. You can change the text and images and you're good to go.
@@ -500,13 +499,13 @@
               <div class="flex items-center">
                 <div>
                   <span
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-100 mr-3"
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3"
                   >
                     <i class="fas fa-fingerprint"></i>
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-gray-600">
+                  <h4 class="text-coolGray-500">
                     Built by Developers for Developers
                   </h4>
                 </div>
@@ -516,13 +515,13 @@
               <div class="flex items-center">
                 <div>
                   <span
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-100 mr-3"
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3"
                   >
                     <i class="fab fa-html5"></i>
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-gray-600">
+                  <h4 class="text-coolGray-500">
                     Carefully crafted code for Components
                   </h4>
                 </div>
@@ -532,13 +531,13 @@
               <div class="flex items-center">
                 <div>
                   <span
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-100 mr-3"
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3"
                   >
                     <i class="far fa-paper-plane"></i>
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-gray-600">
+                  <h4 class="text-coolGray-500">
                     Dynamic Javascript Components
                   </h4>
                 </div>
@@ -565,7 +564,7 @@
   <div class="justify-center text-center flex flex-wrap mt-24">
     <div class="w-full md:w-6/12 px-12 md:px-4">
       <h2 class="font-semibold text-4xl">Beautiful Example Pages</h2>
-      <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-600">
+      <p class="text-lg leading-relaxed mt-4 mb-4 text-coolGray-500">
         Notus Svelte is a completly new product built using our past
         experience in web templates. Take the examples we made for you and start
         playing with them.
@@ -574,7 +573,7 @@
   </div>
 </section>
 
-<section class="block relative z-1 bg-gray-700">
+<section class="block relative z-1 bg-coolGray-600">
   <div class="container mx-auto">
     <div class="justify-center flex flex-wrap">
       <div class="w-full lg:w-12/12 px-4 -mt-24">
@@ -635,23 +634,23 @@
   </div>
 </section>
 
-<section class="py-20 bg-gray-700 overflow-hidden">
+<section class="py-20 bg-coolGray-600 overflow-hidden">
   <div class="container mx-auto pb-64">
     <div class="flex flex-wrap justify-center">
       <div class="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
         <div
-          class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
+          class="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
         >
           <i class="fas fa-code-branch text-xl"></i>
         </div>
         <h3 class="text-3xl mb-2 font-semibold leading-normal text-white">
           Open Source
         </h3>
-        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-500">
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-coolGray-400">
           Since
           <a
             href="https://tailwindcss.com/?ref=creativetim"
-            class="text-gray-400"
+            class="text-coolGray-300"
             target="_blank"
           >
             Tailwind CSS
@@ -660,13 +659,13 @@
           can give this version a try to feel the design and also test the
           quality of the code!
         </p>
-        <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-500">
+        <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-coolGray-400">
           Get it free on Github and please help us spread the news with a Star!
         </p>
         <a
           href="https://github.com/creativetimofficial/notus-svelte?ref=ns-index"
           target="_blank"
-          class="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+          class="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-coolGray-700 active:bg-coolGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
         >
           Github Star
         </a>
@@ -674,14 +673,14 @@
 
       <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
         <i
-          class="fab fa-github text-gray-800 text-55 absolute -top-150-px -right-100 left-auto opacity-80"
+          class="fab fa-github text-coolGray-700 text-55 absolute -top-150-px -right-100 left-auto opacity-80"
         ></i>
       </div>
     </div>
   </div>
 </section>
 
-<section class="pb-16 bg-gray-300 relative pt-32">
+<section class="pb-16 bg-coolGray-200 relative pt-32">
   <div
     class="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
     style="transform: translateZ(0);"
@@ -696,7 +695,7 @@
       y="0"
     >
       <polygon
-        class="text-gray-300 fill-current"
+        class="text-coolGray-200 fill-current"
         points="2560 0 2560 100 0 100"
       ></polygon>
     </svg>
@@ -715,7 +714,7 @@
         <h3 class="font-semibold text-3xl">
           Do you love this Starter Kit?
         </h3>
-        <p class="text-gray-600 text-lg leading-relaxed mt-4 mb-4">
+        <p class="text-coolGray-500 text-lg leading-relaxed mt-4 mb-4">
           Cause if you do, it can be yours now. Hit the buttons below to
           navigate to get the Free version for your next project. Build a new
           web app or give an old project a new look!
@@ -731,7 +730,7 @@
           <a
             href="https://github.com/creativetimofficial/notus-svelte?ref=ns-index"
             target="_blank"
-            class="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+            class="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-coolGray-700 active:bg-coolGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             <i class="fab fa-github text-lg mr-1"></i>
             <span>Help With a Star</span>

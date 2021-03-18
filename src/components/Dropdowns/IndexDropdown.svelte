@@ -24,7 +24,7 @@
 
 <div>
   <a
-    class="hover:text-gray-600 text-gray-800 px-3 py-2 flex items-center text-xs uppercase font-bold"
+    class="hover:text-coolGray-500 text-coolGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold"
     href="#pablo"
     bind:this="{btnDropdownRef}"
     on:click="{toggleDropdown}"
@@ -36,75 +36,75 @@
     class="bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48 {dropdownPopoverShow ? 'block':'hidden'}"
   >
     <span
-      class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-no-wrap bg-transparent text-gray-500"
+      class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-coolGray-400"
     >
       Admin Layout
     </span>
     <a
       use:link
       href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/dashboard"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Dashboard
     </a>
     <a
       use:link
       href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/settings"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Settings
     </a>
     <a
       use:link
       href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/tables"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Tables
     </a>
     <a
       use:link
       href="{process.env.PRODUCTION ? '/notus-svelte':''}/admin/maps"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Maps
     </a>
-    <div class="h-0 mx-4 my-2 border border-solid border-gray-200" />
+    <div class="h-0 mx-4 my-2 border border-solid border-coolGray-100" />
     <span
-      class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-no-wrap bg-transparent text-gray-500"
+      class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-coolGray-400"
     >
       Auth Layout
     </span>
     <a
       use:link
       href="{process.env.PRODUCTION ? '/notus-svelte':''}/auth/login"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Login
     </a>
     <a
       use:link
       href="{process.env.PRODUCTION ? '/notus-svelte':''}/auth/register"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Register
     </a>
-    <div class="h-0 mx-4 my-2 border border-solid border-gray-200" />
+    <div class="h-0 mx-4 my-2 border border-solid border-coolGray-100" />
     <span
-      class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-no-wrap bg-transparent text-gray-500"
+      class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-coolGray-400"
     >
       No Layout
     </span>
     <a
       use:link
       href="{process.env.PRODUCTION ? '/notus-svelte':''}/landing"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
-      Lading
+      Landing
     </a>
     <a
       use:link
       href="{process.env.PRODUCTION ? '/notus-svelte':''}/profile"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
     >
       Profile
     </a>

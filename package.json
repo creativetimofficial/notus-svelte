@@ -1,6 +1,6 @@
 {
   "name": "notus-svelte",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://demos.creative-tim.com/notus-svelte/",
   "description": "Notus Svelte - A free Tailwind CSS and Svelte UI Kit and Admin by Creative Tim.",
   "repository": "https://github.com/creativetimofficial/notus-svelte",
@@ -15,22 +15,24 @@
     "deploy": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf public/build && npm install && npm run build:tailwind && npm run build:fontawesome && npm run build && gh-pages -d public"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "15.1.0",
-    "@rollup/plugin-node-resolve": "9.0.0",
-    "rollup": "2.28.1",
+    "@rollup/plugin-commonjs": "17.1.0",
+    "@rollup/plugin-node-resolve": "11.2.0",
+    "autoprefixer": "10.2.5",
+    "postcss": "8.2.8",
+    "rollup": "2.41.5",
     "rollup-plugin-livereload": "2.0.0",
-    "rollup-plugin-svelte": "6.0.1",
+    "rollup-plugin-svelte": "7.1.0",
     "rollup-plugin-terser": "7.0.2",
-    "svelte": "3.26.0"
+    "svelte": "3.35.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.14.0",
-    "@popperjs/core": "2.5.1",
-    "@rollup/plugin-alias": "3.1.1",
-    "@tailwindcss/custom-forms": "0.2.1",
-    "chart.js": "2.9.3",
-    "sirv-cli": "1.0.6",
-    "svelte-routing": "1.4.2",
-    "tailwindcss": "1.8.10"
+    "@fortawesome/fontawesome-free": "5.15.3",
+    "@popperjs/core": "2.9.1",
+    "@rollup/plugin-alias": "3.1.2",
+    "@tailwindcss/forms": "0.2.1",
+    "chart.js": "2.9.4",
+    "sirv-cli": "1.0.11",
+    "svelte-routing": "1.5.0",
+    "tailwindcss": "2.0.4"
   }
 }
