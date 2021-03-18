@@ -77,16 +77,46 @@ const indexTemplate = `<!--
     <div id="app"></div>
   </body>
 </html>
-`
+`;
 
 if (production) {
-  fs.writeFileSync("./public/index.html",indexTemplate.replace("<<process-env-status>>","PRODUCTION: true").replace(/<<live-preview-link>>/g,"/notus-svelte"));
-  fs.writeFileSync("./public/200.html",indexTemplate.replace("<<process-env-status>>","PRODUCTION: true").replace(/<<live-preview-link>>/g,"/notus-svelte"));
-  fs.writeFileSync("./public/404.html",indexTemplate.replace("<<process-env-status>>","PRODUCTION: true").replace(/<<live-preview-link>>/g,"/notus-svelte"));
+  fs.writeFileSync(
+    "./public/index.html",
+    indexTemplate
+      .replace("<<process-env-status>>", "PRODUCTION: true")
+      .replace(/<<live-preview-link>>/g, "/notus-svelte")
+  );
+  fs.writeFileSync(
+    "./public/200.html",
+    indexTemplate
+      .replace("<<process-env-status>>", "PRODUCTION: true")
+      .replace(/<<live-preview-link>>/g, "/notus-svelte")
+  );
+  fs.writeFileSync(
+    "./public/404.html",
+    indexTemplate
+      .replace("<<process-env-status>>", "PRODUCTION: true")
+      .replace(/<<live-preview-link>>/g, "/notus-svelte")
+  );
 } else {
-  fs.writeFileSync("./public/index.html",indexTemplate.replace("<<process-env-status>>","").replace(/<<live-preview-link>>/g,""));
-  fs.writeFileSync("./public/200.html",indexTemplate.replace("<<process-env-status>>","").replace(/<<live-preview-link>>/g,""));
-  fs.writeFileSync("./public/404.html",indexTemplate.replace("<<process-env-status>>","").replace(/<<live-preview-link>>/g,""));
+  fs.writeFileSync(
+    "./public/index.html",
+    indexTemplate
+      .replace("<<process-env-status>>", "")
+      .replace(/<<live-preview-link>>/g, "")
+  );
+  fs.writeFileSync(
+    "./public/200.html",
+    indexTemplate
+      .replace("<<process-env-status>>", "")
+      .replace(/<<live-preview-link>>/g, "")
+  );
+  fs.writeFileSync(
+    "./public/404.html",
+    indexTemplate
+      .replace("<<process-env-status>>", "")
+      .replace(/<<live-preview-link>>/g, "")
+  );
 }
 
 function serve() {
