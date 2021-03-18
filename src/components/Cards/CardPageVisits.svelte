@@ -24,22 +24,22 @@
       <thead>
         <tr>
           <th
-            class="px-6 bg-coolGray-new text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+            class="px-6 bg-coolGray-50 text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
           >
             Page name
           </th>
           <th
-            class="px-6 bg-coolGray-new text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+            class="px-6 bg-coolGray-50 text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
           >
             Visitors
           </th>
           <th
-            class="px-6 bg-coolGray-new text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+            class="px-6 bg-coolGray-50 text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
           >
             Unique users
           </th>
           <th
-            class="px-6 bg-coolGray-new text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+            class="px-6 bg-coolGray-50 text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
           >
             Bounce rate
           </th>
