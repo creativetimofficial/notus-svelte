@@ -546,7 +546,7 @@
                   >
                     Full Name
                   </label>
-                  border-0
+                  <input
                     id="full-name"
                     type="text"
                     class="border-0 px-3 py-3 placeholder-coolGray-300 text-coolGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
