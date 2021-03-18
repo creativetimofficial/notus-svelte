@@ -499,7 +499,7 @@
               <div class="flex items-center">
                 <div>
                   <span
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3"
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-50 mr-3"
                   >
                     <i class="fas fa-fingerprint"></i>
                   </span>
@@ -515,7 +515,7 @@
               <div class="flex items-center">
                 <div>
                   <span
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3"
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-50 mr-3"
                   >
                     <i class="fab fa-html5"></i>
                   </span>
@@ -531,7 +531,7 @@
               <div class="flex items-center">
                 <div>
                   <span
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3"
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-50 mr-3"
                   >
                     <i class="far fa-paper-plane"></i>
                   </span>
