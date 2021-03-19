@@ -15,10 +15,10 @@
 </script>
 
 <nav
-  class="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-no-wrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6"
+  class="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6"
 >
   <div
-    class="md:flex-col md:items-stretch md:min-h-full md:flex-no-wrap px-0 flex flex-wrap items-center justify-between w-full mx-auto"
+    class="md:flex-col md:items-stretch md:min-h-full md:flex-nowrap px-0 flex flex-wrap items-center justify-between w-full mx-auto"
   >
     <!-- Toggler -->
     <button
@@ -31,7 +31,7 @@
     <!-- Brand -->
     <a
       use:link
-      class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
+      class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
       href="/"
     >
       Notus Svelte
@@ -51,13 +51,13 @@
     >
       <!-- Collapse header -->
       <div
-        class="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-gray-300"
+        class="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200"
       >
         <div class="flex flex-wrap">
           <div class="w-6/12">
             <a
               use:link
-              class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
+              class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
               href="/"
             >
               Notus Svelte
@@ -80,7 +80,7 @@
           <input
             type="text"
             placeholder="Search"
-            class="px-3 py-2 h-12 border border-solid border-gray-600 placeholder-gray-400 text-gray-700 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
+            class="border-0 px-3 py-2 h-12 border border-solid border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
           />
         </div>
       </form>
@@ -89,7 +89,7 @@
       <hr class="my-4 md:min-w-full" />
       <!-- Heading -->
       <h6
-        class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+        class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
       >
         Admin Layout Pages
       </h6>
@@ -100,10 +100,10 @@
           <a
             use:link
             href="/admin/dashboard"
-            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/dashboard') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/dashboard') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
           >
             <i
-              class="fas fa-tv mr-2 text-sm {location.href.indexOf('/admin/dashboard') !== -1 ? 'opacity-75' : 'text-gray-400'}"
+              class="fas fa-tv mr-2 text-sm {location.href.indexOf('/admin/dashboard') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
             ></i>
             Dashboard
           </a>
@@ -113,10 +113,10 @@
           <a
             use:link
             href="/admin/settings"
-            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/settings') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/settings') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
           >
             <i
-              class="fas fa-tools mr-2 text-sm {location.href.indexOf('/admin/settings') !== -1 ? 'opacity-75' : 'text-gray-400'}"
+              class="fas fa-tools mr-2 text-sm {location.href.indexOf('/admin/settings') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
             ></i>
             Settings
           </a>
@@ -126,10 +126,10 @@
           <a
             use:link
             href="/admin/tables"
-            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/tables') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/tables') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
           >
             <i
-              class="fas fa-table mr-2 text-sm {location.href.indexOf('/admin/tables') !== -1 ? 'opacity-75' : 'text-gray-400'}"
+              class="fas fa-table mr-2 text-sm {location.href.indexOf('/admin/tables') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
             ></i>
             Tables
           </a>
@@ -139,10 +139,10 @@
           <a
             use:link
             href="/admin/maps"
-            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/maps') !== -1 ? 'text-red-500 hover:text-red-600':'text-gray-800 hover:text-gray-600'}"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/maps') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
           >
             <i
-              class="fas fa-map-marked mr-2 text-sm {location.href.indexOf('/admin/maps') !== -1 ? 'opacity-75' : 'text-gray-400'}"
+              class="fas fa-map-marked mr-2 text-sm {location.href.indexOf('/admin/maps') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
             ></i>
             Maps
           </a>
@@ -153,7 +153,7 @@
       <hr class="my-4 md:min-w-full" />
       <!-- Heading -->
       <h6
-        class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+        class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
       >
         Auth Layout Pages
       </h6>
@@ -163,10 +163,10 @@
         <li class="items-center">
           <a
             use:link
-            class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
             href="/auth/login"
           >
-            <i class="fas fa-fingerprint text-gray-400 mr-2 text-sm"></i>
+            <i class="fas fa-fingerprint text-blueGray-300 mr-2 text-sm"></i>
             Login
           </a>
         </li>
@@ -174,10 +174,10 @@
         <li class="items-center">
           <a
             use:link
-            class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
             href="/auth/register"
           >
-            <i class="fas fa-clipboard-list text-gray-400 mr-2 text-sm"></i>
+            <i class="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"></i>
             Register
           </a>
         </li>
@@ -187,7 +187,7 @@
       <hr class="my-4 md:min-w-full" />
       <!-- Heading -->
       <h6
-        class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+        class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
       >
         No Layout Pages
       </h6>
@@ -197,10 +197,10 @@
         <li class="items-center">
           <a
             use:link
-            class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
             href="/landing"
           >
-            <i class="fas fa-newspaper text-gray-400 mr-2 text-sm"></i>
+            <i class="fas fa-newspaper text-blueGray-300 mr-2 text-sm"></i>
             Landing Page
           </a>
         </li>
@@ -208,10 +208,10 @@
         <li class="items-center">
           <a
             use:link
-            class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+            class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
             href="/profile"
           >
-            <i class="fas fa-user-circle text-gray-400 mr-2 text-sm"></i>
+            <i class="fas fa-user-circle text-blueGray-300 mr-2 text-sm"></i>
             Profile Page
           </a>
         </li>
@@ -221,7 +221,7 @@
       <hr class="my-4 md:min-w-full" />
       <!-- Heading -->
       <h6
-        class="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+        class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
       >
         Documentation
       </h6>
@@ -231,9 +231,9 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/colors/notus"
             target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
-            <i class="fas fa-paint-brush mr-2 text-gray-400 text-base"></i>
+            <i class="fas fa-paint-brush mr-2 text-blueGray-300 text-base"></i>
             Styles
           </a>
         </li>
@@ -242,9 +242,9 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus"
             target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
-            <i class="fab fa-css3-alt mr-2 text-gray-400 text-base"></i>
+            <i class="fab fa-css3-alt mr-2 text-blueGray-300 text-base"></i>
             CSS Components
           </a>
         </li>
@@ -253,9 +253,9 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
             target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
-            <i class="fab fa-angular mr-2 text-gray-400 text-base"></i>
+            <i class="fab fa-angular mr-2 text-blueGray-300 text-base"></i>
             Angular
           </a>
         </li>
@@ -264,9 +264,9 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
             target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
-            <i class="fab fa-js-square mr-2 text-gray-400 text-base"></i>
+            <i class="fab fa-js-square mr-2 text-blueGray-300 text-base"></i>
             Javascript
           </a>
         </li>
@@ -275,9 +275,9 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
             target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
-            <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
+            <i class="fab fa-react mr-2 text-blueGray-300 text-base"></i>
             NextJS
           </a>
         </li>
@@ -286,9 +286,9 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
             target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
-            <i class="fab fa-react mr-2 text-gray-400 text-base"></i>
+            <i class="fab fa-react mr-2 text-blueGray-300 text-base"></i>
             React
           </a>
         </li>
@@ -297,9 +297,9 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
             target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
-            <i class="fas fa-link mr-2 text-gray-400 text-base"></i>
+            <i class="fas fa-link mr-2 text-blueGray-300 text-base"></i>
             Svelte
           </a>
         </li>
@@ -308,9 +308,9 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
             target="_blank"
-            class="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+            class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
-            <i class="fab fa-vuejs mr-2 text-gray-400 text-base"></i>
+            <i class="fab fa-vuejs mr-2 text-blueGray-300 text-base"></i>
             VueJS
           </a>
         </li>
