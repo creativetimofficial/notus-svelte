@@ -24,7 +24,7 @@
     <div class="flex flex-wrap items-center">
       <div class="relative w-full px-4 max-w-full flex-grow flex-1">
         <h3
-          class="font-semibold text-lg {color === 'light' ? 'text-coolGray-700' : 'text-white'}"
+          class="font-semibold text-lg {color === 'light' ? 'text-blueGray-700' : 'text-white'}"
         >
           Card Tables
         </h3>
@@ -37,32 +37,32 @@
       <thead>
         <tr>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-coolGray-new text-coolGray-500 border-coolGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Project
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-coolGray-new text-coolGray-500 border-coolGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Budget
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-coolGray-new text-coolGray-500 border-coolGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Status
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-coolGray-new text-coolGray-500 border-coolGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Users
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-coolGray-new text-coolGray-500 border-coolGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Completion
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-coolGray-new text-coolGray-500 border-coolGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
           ></th>
         </tr>
       </thead>
@@ -77,7 +77,7 @@
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-coolGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
             >
               Argon Design System
             </span>
@@ -99,22 +99,22 @@
               <img
                 src="{team1}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
                 src="{team2}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team3}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team4}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
             </div>
           </td>
@@ -151,7 +151,7 @@
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-coolGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
             >
               Angular Now UI Kit PRO
             </span>
@@ -164,7 +164,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-circle text-green-500 mr-2"></i>
+            <i class="fas fa-circle text-emerald-500 mr-2"></i>
             completed
           </td>
           <td
@@ -174,22 +174,22 @@
               <img
                 src="{team1}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
                 src="{team2}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team3}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team4}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
             </div>
           </td>
@@ -200,11 +200,11 @@
               <span class="mr-2">100%</span>
               <div class="relative w-full">
                 <div
-                  class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
+                  class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
                 >
                   <div
                     style="width: 100%;"
-                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                   ></div>
                 </div>
               </div>
@@ -226,7 +226,7 @@
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-coolGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
             >
               Black Dashboard Sketch
             </span>
@@ -248,22 +248,22 @@
               <img
                 src="{team1}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
                 src="{team2}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team3}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team4}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
             </div>
           </td>
@@ -300,7 +300,7 @@
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-coolGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
             >
               React Material Dashboard
             </span>
@@ -322,22 +322,22 @@
               <img
                 src="{team1}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
                 src="{team2}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team3}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team4}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
             </div>
           </td>
@@ -374,7 +374,7 @@
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-coolGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
             >
               React Material Dashboard
             </span>
@@ -387,7 +387,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-circle text-green-500 mr-2"></i>
+            <i class="fas fa-circle text-emerald-500 mr-2"></i>
             completed
           </td>
           <td
@@ -397,22 +397,22 @@
               <img
                 src="{team1}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
                 src="{team2}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team3}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
                 src="{team4}"
                 alt="..."
-                class="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
+                class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
             </div>
           </td>
@@ -423,11 +423,11 @@
               <span class="mr-2">100%</span>
               <div class="relative w-full">
                 <div
-                  class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
+                  class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
                 >
                   <div
                     style="width: 100%;"
-                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                    class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                   ></div>
                 </div>
               </div>
