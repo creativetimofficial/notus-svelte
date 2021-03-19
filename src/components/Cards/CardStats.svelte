@@ -9,7 +9,7 @@
   export let statPercent = "3.48";
   // can be any of the text color utilities
   // from tailwindcss
-  export let statPercentColor = "text-green-500";
+  export let statPercentColor = "text-emerald-500";
   export let statDescripiron = "Since last month";
   export let statIconName = "far fa-chart-bar";
   // can be any of the background color utilities
@@ -23,10 +23,10 @@
   <div class="flex-auto p-4">
     <div class="flex flex-wrap">
       <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
-        <h5 class="text-gray-500 uppercase font-bold text-xs">
+        <h5 class="text-blueGray-400 uppercase font-bold text-xs">
           {statSubtitle}
         </h5>
-        <span class="font-semibold text-xl text-gray-800">
+        <span class="font-semibold text-xl text-blueGray-700">
           {statTitle}
         </span>
       </div>
@@ -38,14 +38,14 @@
         </div>
       </div>
     </div>
-    <p class="text-sm text-gray-500 mt-4">
+    <p class="text-sm text-blueGray-400 mt-4">
       <span class="mr-2 {statPercentColor}">
         <i
           class="{statArrow === 'up' ? 'fas fa-arrow-up' : 'fas fa-arrow-down'}"
         ></i>
         {statPercent}%
       </span>
-      <span class="whitespace-no-wrap">{statDescripiron}</span>
+      <span class="whitespace-nowrap">{statDescripiron}</span>
     </p>
   </div>
 </div>
