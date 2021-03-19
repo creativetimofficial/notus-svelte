@@ -67,7 +67,7 @@ const indexTemplate = `<!--
     <script defer src="<<live-preview-link>>/build/bundle.js"></script>
   </head>
 
-  <body class="text-coolGray-700 antialiased">
+  <body class="text-blueGray-700 antialiased">
     <noscript>
       <strong
         >We're sorry but notus-svelte doesn't work properly without
