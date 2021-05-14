@@ -5,12 +5,8 @@ module.exports = {
   purge: {
     enabled: true,
     content: [
-      "./**/*.html",
-      "./*.html",
-      "./**/*.js",
-      "./*.js",
-      "./**/*.svelte",
-      "./*.svelte",
+      "./src/**/*.js",
+      "./src/**/*.svelte",
     ],
     options: {
       safelist: [],
