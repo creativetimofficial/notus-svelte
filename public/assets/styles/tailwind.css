@@ -2688,22 +2688,22 @@ select {
   background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
 }
 
-.bg-lightBlue-200 {
+.bg-sky-200 {
   --tw-bg-opacity: 1;
   background-color: rgba(186, 230, 253, var(--tw-bg-opacity));
 }
 
-.bg-lightBlue-400 {
+.bg-sky-400 {
   --tw-bg-opacity: 1;
   background-color: rgba(56, 189, 248, var(--tw-bg-opacity));
 }
 
-.bg-lightBlue-500 {
+.bg-sky-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(14, 165, 233, var(--tw-bg-opacity));
 }
 
-.bg-lightBlue-600 {
+.bg-sky-600 {
   --tw-bg-opacity: 1;
   background-color: rgba(2, 132, 199, var(--tw-bg-opacity));
 }
@@ -3425,12 +3425,12 @@ select {
   color: rgba(79, 70, 229, var(--tw-text-opacity));
 }
 
-.text-lightBlue-400 {
+.text-sky-400 {
   --tw-text-opacity: 1;
   color: rgba(56, 189, 248, var(--tw-text-opacity));
 }
 
-.text-lightBlue-600 {
+.text-sky-600 {
   --tw-text-opacity: 1;
   color: rgba(2, 132, 199, var(--tw-text-opacity));
 }
