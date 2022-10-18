@@ -9,7 +9,7 @@
   const team2 = "/assets/img/team-2-800x800.jpg";
   const team3 = "/assets/img/team-3-800x800.jpg";
   const team4 = "/assets/img/team-4-470x470.png";
-  export let location;
+  export const location = null;
 </script>
 
 <div>
@@ -27,7 +27,7 @@
         <span
           id="blackOverlay"
           class="w-full h-full absolute opacity-75 bg-black"
-        ></span>
+        />
       </div>
       <div class="container relative mx-auto">
         <div class="items-center flex flex-wrap">
@@ -38,8 +38,8 @@
               </h1>
               <p class="mt-4 text-lg text-blueGray-200">
                 This is a simple example of a Landing Page you can build using
-                Notus Svelte. It features multiple CSS components
-                based on the Tailwind CSS design system.
+                Notus Svelte. It features multiple CSS components based on the
+                Tailwind CSS design system.
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@
           <polygon
             class="text-blueGray-200 fill-current"
             points="2560 0 2560 100 0 100"
-          ></polygon>
+          />
         </svg>
       </div>
     </div>
@@ -77,7 +77,7 @@
                 <div
                   class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
                 >
-                  <i class="fas fa-award"></i>
+                  <i class="fas fa-award" />
                 </div>
                 <h6 class="text-xl font-semibold">Awarded Agency</h6>
                 <p class="mt-2 mb-4 text-blueGray-500">
@@ -94,9 +94,9 @@
             >
               <div class="px-4 py-5 flex-auto">
                 <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400"
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-sky-400"
                 >
-                  <i class="fas fa-retweet"></i>
+                  <i class="fas fa-retweet" />
                 </div>
                 <h6 class="text-xl font-semibold">Free Revisions</h6>
                 <p class="mt-2 mb-4 text-blueGray-500">
@@ -115,7 +115,7 @@
                 <div
                   class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400"
                 >
-                  <i class="fas fa-fingerprint"></i>
+                  <i class="fas fa-fingerprint" />
                 </div>
                 <h6 class="text-xl font-semibold">Verified Company</h6>
                 <p class="mt-2 mb-4 text-blueGray-500">
@@ -132,7 +132,7 @@
             <div
               class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
             >
-              <i class="fas fa-user-friends text-xl"></i>
+              <i class="fas fa-user-friends text-xl" />
             </div>
             <h3 class="text-3xl mb-2 font-semibold leading-normal">
               Working with us is a pleasure
@@ -157,7 +157,7 @@
 
           <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-400"
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg"
             >
               <img
                 alt="..."
@@ -174,11 +174,9 @@
                   <polygon
                     points="-30,95 583,95 583,65"
                     class="text-red-400 fill-current"
-                  ></polygon>
+                  />
                 </svg>
-                <h4 class="text-xl font-bold text-white">
-                  Top Notch Services
-                </h4>
+                <h4 class="text-xl font-bold text-white">Top Notch Services</h4>
                 <p class="text-md font-light mt-2 text-white">
                   The Arctic Ocean freezes every winter and much of the sea-ice
                   then thaws every summer, and that process will continue
@@ -208,7 +206,7 @@
           <polygon
             class="text-white fill-current"
             points="2560 0 2560 100 0 100"
-          ></polygon>
+          />
         </svg>
       </div>
 
@@ -226,7 +224,7 @@
               <div
                 class="text-red-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-red-300"
               >
-                <i class="fas fa-rocket text-xl"></i>
+                <i class="fas fa-rocket text-xl" />
               </div>
               <h3 class="text-3xl font-semibold">A growing company</h3>
               <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
@@ -241,7 +239,7 @@
                       <span
                         class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3"
                       >
-                        <i class="fas fa-fingerprint"></i>
+                        <i class="fas fa-fingerprint" />
                       </span>
                     </div>
                     <div>
@@ -257,13 +255,11 @@
                       <span
                         class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3"
                       >
-                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-html5" />
                       </span>
                     </div>
                     <div>
-                      <h4 class="text-blueGray-500">
-                        Amazing page examples
-                      </h4>
+                      <h4 class="text-blueGray-500">Amazing page examples</h4>
                     </div>
                   </div>
                 </li>
@@ -273,7 +269,7 @@
                       <span
                         class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3"
                       >
-                        <i class="far fa-paper-plane"></i>
+                        <i class="far fa-paper-plane" />
                       </span>
                     </div>
                     <div>
@@ -305,32 +301,34 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="{team1}"
+                src={team1}
                 class="shadow-lg rounded-full mx-auto max-w-120-px"
               />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Ryan Tompson</h5>
-                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
                   Web Developer
                 </p>
                 <div class="mt-6">
                   <button
-                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter" />
                   </button>
                   <button
-                    class="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-facebook-f" />
                   </button>
                   <button
                     class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-dribbble"></i>
+                    <i class="fab fa-dribbble" />
                   </button>
                 </div>
               </div>
@@ -340,12 +338,14 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="{team2}"
+                src={team2}
                 class="shadow-lg rounded-full mx-auto max-w-120-px"
               />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Romina Hadid</h5>
-                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
                   Marketing Specialist
                 </p>
                 <div class="mt-6">
@@ -353,13 +353,13 @@
                     class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-google"></i>
+                    <i class="fab fa-google" />
                   </button>
                   <button
-                    class="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-facebook-f" />
                   </button>
                 </div>
               </div>
@@ -369,12 +369,14 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="{team3}"
+                src={team3}
                 class="shadow-lg rounded-full mx-auto max-w-120-px"
               />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Alexa Smith</h5>
-                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
                   UI/UX Designer
                 </p>
                 <div class="mt-6">
@@ -382,19 +384,19 @@
                     class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-google"></i>
+                    <i class="fab fa-google" />
                   </button>
                   <button
-                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter" />
                   </button>
                   <button
                     class="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-instagram" />
                   </button>
                 </div>
               </div>
@@ -404,12 +406,14 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="{team4}"
+                src={team4}
                 class="shadow-lg rounded-full mx-auto max-w-120-px"
               />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Jenna Kardi</h5>
-                <p class="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
                   Founder and CEO
                 </p>
                 <div class="mt-6">
@@ -417,25 +421,25 @@
                     class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-dribbble"></i>
+                    <i class="fab fa-dribbble" />
                   </button>
                   <button
                     class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-google"></i>
+                    <i class="fab fa-google" />
                   </button>
                   <button
-                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter" />
                   </button>
                   <button
                     class="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
-                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-instagram" />
                   </button>
                 </div>
               </div>
@@ -462,16 +466,14 @@
           <polygon
             class="text-blueGray-800 fill-current"
             points="2560 0 2560 100 0 100"
-          ></polygon>
+          />
         </svg>
       </div>
 
       <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
         <div class="flex flex-wrap text-center justify-center">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold text-white">
-              Build something
-            </h2>
+            <h2 class="text-4xl font-semibold text-white">Build something</h2>
             <p class="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
               Put the potentially record low maximum sea ice extent tihs year
               down to low ice. According to the National Oceanic and Atmospheric
@@ -484,7 +486,7 @@
             <div
               class="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
             >
-              <i class="fas fa-medal text-xl"></i>
+              <i class="fas fa-medal text-xl" />
             </div>
             <h6 class="text-xl mt-5 font-semibold text-white">
               Excelent Services
@@ -498,7 +500,7 @@
             <div
               class="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
             >
-              <i class="fas fa-poll text-xl"></i>
+              <i class="fas fa-poll text-xl" />
             </div>
             <h5 class="text-xl mt-5 font-semibold text-white">
               Grow your market
@@ -512,11 +514,9 @@
             <div
               class="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
             >
-              <i class="fas fa-lightbulb text-xl"></i>
+              <i class="fas fa-lightbulb text-xl" />
             </div>
-            <h5 class="text-xl mt-5 font-semibold text-white">
-              Launch time
-            </h5>
+            <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
             <p class="mt-2 mb-4 text-blueGray-400">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -533,9 +533,7 @@
               class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200"
             >
               <div class="flex-auto p-5 lg:p-10">
-                <h4 class="text-2xl font-semibold">
-                  Want to work with us?
-                </h4>
+                <h4 class="text-2xl font-semibold">Want to work with us?</h4>
                 <p class="leading-relaxed mt-1 mb-4 text-blueGray-500">
                   Complete this form and we will get back to you in 24 hours.
                 </p>

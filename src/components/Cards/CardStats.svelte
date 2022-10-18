@@ -34,15 +34,15 @@
         <div
           class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full {statIconColor}"
         >
-          <i class="{statIconName}"></i>
+          <i class={statIconName} />
         </div>
       </div>
     </div>
     <p class="text-sm text-blueGray-400 mt-4">
       <span class="mr-2 {statPercentColor}">
         <i
-          class="{statArrow === 'up' ? 'fas fa-arrow-up' : 'fas fa-arrow-down'}"
-        ></i>
+          class={statArrow === "up" ? "fas fa-arrow-up" : "fas fa-arrow-down"}
+        />
         {statPercent}%
       </span>
       <span class="whitespace-nowrap">{statDescripiron}</span>

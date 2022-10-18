@@ -4,9 +4,7 @@
   <div class="rounded-t mb-0 px-4 py-3 border-0">
     <div class="flex flex-wrap items-center">
       <div class="relative w-full px-4 max-w-full flex-grow flex-1">
-        <h3 class="font-semibold text-base text-blueGray-700">
-          Page visits
-        </h3>
+        <h3 class="font-semibold text-base text-blueGray-700">Page visits</h3>
       </div>
       <div class="relative w-full px-4 max-w-full flex-grow flex-1 text-right">
         <button
@@ -65,7 +63,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-arrow-up text-emerald-500 mr-4"></i>
+            <i class="fas fa-arrow-up text-emerald-500 mr-4" />
             46,53%
           </td>
         </tr>
@@ -88,7 +86,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
+            <i class="fas fa-arrow-down text-orange-500 mr-4" />
             46,53%
           </td>
         </tr>
@@ -111,7 +109,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
+            <i class="fas fa-arrow-down text-orange-500 mr-4" />
             36,49%
           </td>
         </tr>
@@ -134,7 +132,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-arrow-up text-emerald-500 mr-4"></i>
+            <i class="fas fa-arrow-up text-emerald-500 mr-4" />
             50,87%
           </td>
         </tr>
@@ -157,7 +155,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-arrow-down text-red-500 mr-4"></i>
+            <i class="fas fa-arrow-down text-red-500 mr-4" />
             46,53%
           </td>
         </tr>
