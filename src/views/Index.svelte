@@ -326,9 +326,7 @@
               target="_blank"
               rel="noreferrer"
             >
-              <div
-                class="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8"
-              >
+              <div class="bg-sky-500 shadow-lg rounded-lg text-center p-8 mt-8">
                 <img
                   alt="..."
                   class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"

@@ -20,7 +20,7 @@
       <polygon
         class="text-blueGray-200 fill-current"
         points="2560 0 2560 100 0 100"
-      ></polygon>
+      />
     </svg>
   </div>
   <div class="container mx-auto px-4">
@@ -32,28 +32,28 @@
         </h5>
         <div class="mt-6 lg:mb-0 mb-6">
           <button
-            class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+            class="bg-white text-sky-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
             type="button"
           >
-            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter" />
           </button>
           <button
-            class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+            class="bg-white text-sky-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
             type="button"
           >
-            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-facebook-square" />
           </button>
           <button
             class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
             type="button"
           >
-            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-dribbble" />
           </button>
           <button
             class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
             type="button"
           >
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github" />
           </button>
         </div>
       </div>

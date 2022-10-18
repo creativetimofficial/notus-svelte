@@ -94,7 +94,7 @@
             >
               <div class="px-4 py-5 flex-auto">
                 <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400"
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-sky-400"
                 >
                   <i class="fas fa-retweet" />
                 </div>
@@ -313,13 +313,13 @@
                 </p>
                 <div class="mt-6">
                   <button
-                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
                     <i class="fab fa-twitter" />
                   </button>
                   <button
-                    class="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
                     <i class="fab fa-facebook-f" />
@@ -356,7 +356,7 @@
                     <i class="fab fa-google" />
                   </button>
                   <button
-                    class="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
                     <i class="fab fa-facebook-f" />
@@ -387,7 +387,7 @@
                     <i class="fab fa-google" />
                   </button>
                   <button
-                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
                     <i class="fab fa-twitter" />
@@ -430,7 +430,7 @@
                     <i class="fab fa-google" />
                   </button>
                   <button
-                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    class="bg-sky-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                   >
                     <i class="fab fa-twitter" />
