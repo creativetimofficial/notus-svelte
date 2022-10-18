@@ -18,13 +18,18 @@
 </script>
 
 <div
-  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded {color === 'light' ? 'bg-white' : 'bg-red-800 text-white'}"
+  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded {color ===
+  'light'
+    ? 'bg-white'
+    : 'bg-red-800 text-white'}"
 >
   <div class="rounded-t mb-0 px-4 py-3 border-0">
     <div class="flex flex-wrap items-center">
       <div class="relative w-full px-4 max-w-full flex-grow flex-1">
         <h3
-          class="font-semibold text-lg {color === 'light' ? 'text-blueGray-700' : 'text-white'}"
+          class="font-semibold text-lg {color === 'light'
+            ? 'text-blueGray-700'
+            : 'text-white'}"
         >
           Card Tables
         </h3>
@@ -37,33 +42,51 @@
       <thead>
         <tr>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
+            'light'
+              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Project
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
+            'light'
+              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Budget
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
+            'light'
+              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Status
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
+            'light'
+              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Users
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
+            'light'
+              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              : 'bg-red-700 text-red-200 border-red-600'}"
           >
             Completion
           </th>
           <th
-            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color === 'light' ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100' : 'bg-red-700 text-red-200 border-red-600'}"
-          ></th>
+            class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left {color ===
+            'light'
+              ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+              : 'bg-red-700 text-red-200 border-red-600'}"
+          />
         </tr>
       </thead>
       <tbody>
@@ -72,12 +95,14 @@
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
           >
             <img
-              src="{bootstrap}"
+              src={bootstrap}
               class="h-12 w-12 bg-white rounded-full border"
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light'
+                ? 'btext-blueGray-600'
+                : 'text-whit'}"
             >
               Argon Design System
             </span>
@@ -90,29 +115,29 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-circle text-orange-500 mr-2"></i> pending
+            <i class="fas fa-circle text-orange-500 mr-2" /> pending
           </td>
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
             <div class="flex">
               <img
-                src="{team1}"
+                src={team1}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
-                src="{team2}"
+                src={team2}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team3}"
+                src={team3}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team4}"
+                src={team4}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
@@ -130,7 +155,7 @@
                   <div
                     style="width: 60%;"
                     class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
-                  ></div>
+                  />
                 </div>
               </div>
             </div>
@@ -146,12 +171,14 @@
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
           >
             <img
-              src="{angular}"
+              src={angular}
               class="h-12 w-12 bg-white rounded-full border"
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light'
+                ? 'btext-blueGray-600'
+                : 'text-whit'}"
             >
               Angular Now UI Kit PRO
             </span>
@@ -164,7 +191,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-circle text-emerald-500 mr-2"></i>
+            <i class="fas fa-circle text-emerald-500 mr-2" />
             completed
           </td>
           <td
@@ -172,22 +199,22 @@
           >
             <div class="flex">
               <img
-                src="{team1}"
+                src={team1}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
-                src="{team2}"
+                src={team2}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team3}"
+                src={team3}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team4}"
+                src={team4}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
@@ -205,7 +232,7 @@
                   <div
                     style="width: 100%;"
                     class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
-                  ></div>
+                  />
                 </div>
               </div>
             </div>
@@ -221,12 +248,14 @@
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
           >
             <img
-              src="{sketch}"
+              src={sketch}
               class="h-12 w-12 bg-white rounded-full border"
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light'
+                ? 'btext-blueGray-600'
+                : 'text-whit'}"
             >
               Black Dashboard Sketch
             </span>
@@ -239,29 +268,29 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-circle text-red-500 mr-2"></i> delayed
+            <i class="fas fa-circle text-red-500 mr-2" /> delayed
           </td>
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
             <div class="flex">
               <img
-                src="{team1}"
+                src={team1}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
-                src="{team2}"
+                src={team2}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team3}"
+                src={team3}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team4}"
+                src={team4}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
@@ -279,7 +308,7 @@
                   <div
                     style="width: 73%;"
                     class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
-                  ></div>
+                  />
                 </div>
               </div>
             </div>
@@ -295,12 +324,14 @@
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
           >
             <img
-              src="{react}"
+              src={react}
               class="h-12 w-12 bg-white rounded-full border"
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light'
+                ? 'btext-blueGray-600'
+                : 'text-whit'}"
             >
               React Material Dashboard
             </span>
@@ -313,29 +344,29 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-circle text-teal-500 mr-2"></i> on schedule
+            <i class="fas fa-circle text-teal-500 mr-2" /> on schedule
           </td>
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
             <div class="flex">
               <img
-                src="{team1}"
+                src={team1}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
-                src="{team2}"
+                src={team2}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team3}"
+                src={team3}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team4}"
+                src={team4}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
@@ -353,7 +384,7 @@
                   <div
                     style="width: 90%;"
                     class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"
-                  ></div>
+                  />
                 </div>
               </div>
             </div>
@@ -369,12 +400,14 @@
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
           >
             <img
-              src="{vue}"
+              src={vue}
               class="h-12 w-12 bg-white rounded-full border"
               alt="..."
             />
             <span
-              class="ml-3 font-bold {color === 'light' ? 'btext-blueGray-600' : 'text-whit'}"
+              class="ml-3 font-bold {color === 'light'
+                ? 'btext-blueGray-600'
+                : 'text-whit'}"
             >
               React Material Dashboard
             </span>
@@ -387,7 +420,7 @@
           <td
             class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
           >
-            <i class="fas fa-circle text-emerald-500 mr-2"></i>
+            <i class="fas fa-circle text-emerald-500 mr-2" />
             completed
           </td>
           <td
@@ -395,22 +428,22 @@
           >
             <div class="flex">
               <img
-                src="{team1}"
+                src={team1}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
               />
               <img
-                src="{team2}"
+                src={team2}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team3}"
+                src={team3}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
               <img
-                src="{team4}"
+                src={team4}
                 alt="..."
                 class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
               />
@@ -428,7 +461,7 @@
                   <div
                     style="width: 100%;"
                     class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
-                  ></div>
+                  />
                 </div>
               </div>
             </div>

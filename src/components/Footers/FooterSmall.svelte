@@ -6,7 +6,9 @@
 </script>
 
 <footer
-  class="pb-6 {absolute ? 'absolute w-full bottom-0 bg-blueGray-800' : 'relative'}"
+  class="pb-6 {absolute
+    ? 'absolute w-full bottom-0 bg-blueGray-800'
+    : 'relative'}"
 >
   <div class="container mx-auto px-4">
     <hr class="mb-6 border-b-1 border-blueGray-600" />

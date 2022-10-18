@@ -23,16 +23,16 @@
             backgroundColor: "#4c51bf",
             borderColor: "#4c51bf",
             data: [65, 78, 66, 44, 56, 67, 75],
-            fill: false
+            fill: false,
           },
           {
             label: new Date().getFullYear() - 1,
             fill: false,
             backgroundColor: "#fff",
             borderColor: "#fff",
-            data: [40, 68, 86, 74, 56, 60, 87]
-          }
-        ]
+            data: [40, 68, 86, 74, 56, 60, 87],
+          },
+        ],
       },
       options: {
         maintainAspectRatio: false,
@@ -119,16 +119,14 @@
         <h6 class="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
           Overview
         </h6>
-        <h2 class="text-white text-xl font-semibold">
-          Sales value
-        </h2>
+        <h2 class="text-white text-xl font-semibold">Sales value</h2>
       </div>
     </div>
   </div>
   <div class="p-4 flex-auto">
     <!-- Chart -->
     <div class="relative h-350-px">
-      <canvas id="line-chart"></canvas>
+      <canvas id="line-chart" />
     </div>
   </div>
 </div>
